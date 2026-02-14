@@ -60,3 +60,30 @@ let z;
 // ***************Data Type*********************
 // let x = 2;  // int
 // let y = "hello"; // string
+// let y = "hel\"lo"; => escape sequence
+// y = 2.2 => float
+
+
+// Boolean -> true or false
+// k = 2 < 3;
+// console.log(k); => true
+
+
+// undefined -> when variable is not defined
+// let k;
+// console.log(k); // output: undefined
+
+
+// typeof => check the data type of variable
+// let k = typeof 4;
+// console.log(k); // output: number
+
+
+// Template Literals
+let k = "Hello Hi";
+let l = "World";
+
+// let m = k+l; // concatenation
+// console.log(m);  // Hello HiWorld
+console.log(`Alex ${k}`)
+
