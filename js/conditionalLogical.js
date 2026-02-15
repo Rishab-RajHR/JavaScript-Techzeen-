@@ -55,6 +55,7 @@ Logical Operators:
 
 !(2<4) -> false
 !(6==5) -> true
-!(6==6) -> false
+!(6==6) -> false 
+!(6!=6) -> true
  */
 
