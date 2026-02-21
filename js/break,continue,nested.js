@@ -27,12 +27,63 @@ Nested Loop: A loop presented inside the another loop
 
 // Nested Loops : Loop inside Loops
 
-for(let i=0; i<=5; i++)
-{
-    document.write("The Value of I is: " + i + "<br>");
+// for(let i=0; i<=5; i++)
+// {
+//     document.write("The Value of I is: " + i + "<br>");
 
-    for(let j=0; j<2; j++)
+//     for(let j=0; j<2; j++)
+//     {
+//          document.write("The Value of J is: " + j + "<br>");
+//     }
+// }
+
+
+
+// for(let i=0; i<=5; i++)
+// {
+//     document.write("The Value of I is: " + i + "<br>");
+
+//     for(let j=0; j<2; j++)
+//     {
+
+//         if(i == 2)
+//         {
+//             // break; 
+//             continue;
+//         }
+
+//          document.write("The Value of J is: " + j + "<br>");
+//     }
+// }
+
+
+
+// bahar: for(let i=0; i<=5; i++)
+// {
+//     document.write("The Value of I is: " + i + "<br>");
+
+//     for(let j=0; j<2; j++)
+//     {
+
+//         if(i == 2)
+//         {
+//             break bahar; 
+//             // continue;
+//         }
+
+//          document.write("The Value of J is: " + j + "<br>");
+//     }
+// }
+
+
+
+let count = 0;
+while(count < 10)
+{
+    count++;
+    if(count%2 == 0)
     {
-         document.write("The Value of J is: " + j + "<br>");
+        continue;
     }
+    document.write("The value is: " + count + "<br>");
 }
