@@ -8,3 +8,15 @@ function display()
     console.log(message);
 }
 display();
+
+
+
+
+let text = "I am the Global Variable";
+
+function show(){} // Global Variable
+
+
+show();
+
+console.log(text);
