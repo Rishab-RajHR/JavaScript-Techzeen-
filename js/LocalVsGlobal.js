@@ -15,8 +15,21 @@ display();
 let text = "I am the Global Variable";
 
 function show(){} // Global Variable
-
+   console.log(text);
 
 show();
+//  console.log(text); => accessed outside and inside both
 
-console.log(text);
+
+
+
+// Global variable is block scoped  means cannot be redeclare
+
+// Local variable is function scoped means we can redeclare
+
+function add()
+{
+    let message = "I am the second local variable"; // local variable
+    console.log(message);
+}
+add();
