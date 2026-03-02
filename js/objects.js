@@ -18,5 +18,19 @@ let employee = {
 };
 console.log(employee);
 // Two Methods to access an object properties
-// First Name ----> Dot Notation
-console.log(employee.firstName)
+// First Method ----> Dot Notation
+// console.log(employee.firstName)
+
+// Second Method ----> Array Notation
+// console.log(employee['age']);
+
+
+// Return undefined if the property does not exist
+// console.log(employee.salary);
+
+
+// Add a property in existing object
+employee.salary = 50000;
+console.log(employee);
+console.log(employee.salary);
+
