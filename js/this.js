@@ -5,11 +5,12 @@ let person = {
     lastName: 'Pandian',
     age: 22,
     sayHello (){
-       console.log("I'm " + person.firstName + " "+ person.lastName + " and I've a " + laptop.brand + " laptop");
+       console.log("I'm " + this.firstName + " "+ this.lastName + " and I've a " + laptop.brand + " laptop");
+       console.log(this);
     }
 
 }
-
+console.log(person);
 let laptop = {
    brand: 'ASUS',
    model: '2023'
