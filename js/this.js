@@ -10,7 +10,10 @@ let person = {
     }
 
 }
-console.log(person);
+// console.log(person);
+
+// console.log(this);  --> window object
+
 let laptop = {
    brand: 'ASUS',
    model: '2023'
