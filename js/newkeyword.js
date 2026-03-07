@@ -15,7 +15,7 @@ let employee = new Object();
 employee.name = "Alex Pandian";
 employee.salary = 60000;
 
-console.log(employee); // for the whole object
+// console.log(employee); // for the whole object
 
 console.log(employee.name);
 console.log(employee.salary);
