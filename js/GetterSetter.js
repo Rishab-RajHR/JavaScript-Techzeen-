@@ -29,7 +29,7 @@ console.log(student.getName())*/
 
 
 // with using getter method
-let student = {
+/*let student = {
     firstName : "Tovino",
     // Getter Method
     get getName()
@@ -38,4 +38,22 @@ let student = {
     }
 }
 
-console.log(student.getName);
+console.log(student.getName);*/
+
+
+
+
+// Setters => for setting object properties
+
+let student = {
+    firstName : "Tovino",
+
+    set setName(name)
+    {
+        this.firstName = name.toUpperCase();
+    }
+}
+
+// Setters
+student.setName = "thomas";
+console.log(student);
