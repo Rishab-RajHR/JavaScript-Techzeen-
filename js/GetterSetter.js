@@ -13,7 +13,29 @@ set methodName(paramter)
 }
 */
 
-let student = {
-    firstName : "Alex"
+/*let student = {
+    firstName : "Alex",
+    getName : function()
+    {
+        return this.firstName.toUpperCase();
+    }
 }
-console.log(student.firstName);
+
+console.log(student.getName())*/
+
+// console.log(student.firstName);
+// console.log(student.firstName.toUpperCase());
+
+
+
+// with using getter method
+let student = {
+    firstName : "Tovino",
+    // Getter Method
+    get getName()
+    {
+        return this.firstName.toUpperCase();
+    }
+}
+
+console.log(student.getName);
