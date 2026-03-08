@@ -12,3 +12,8 @@ set methodName(paramter)
    // code for setting the property
 }
 */
+
+let student = {
+    firstName : "Alex"
+}
+console.log(student.firstName);
