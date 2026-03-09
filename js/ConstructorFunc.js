@@ -83,13 +83,13 @@ function Employee(first, last, salary, dep){
 
      this.fullInfo = function(){
     return this.firstName + " " + this.lastName + " " + this.salary + " " + this.department
-
+}
 
 }
 
 let employee1 = new Employee("Alex", "Pandian", 50000, "IT");
-let employee2 = new Employee("Tovino", "Thomas", 60000, "IT");
-
-}
 console.log(employee1);
+
+let employee2 = new Employee("Tovino", "Thomas", 60000, "IT");
 console.log(employee2);
+
