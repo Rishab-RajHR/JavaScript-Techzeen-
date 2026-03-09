@@ -41,7 +41,9 @@ console.log(employee1);
 console.log(employee2); */
 
 
- function Employee(first, last, salary, dep){
+
+
+/* function Employee(first, last, salary, dep){
      this.firstName = first;
      this.lastName = last;
      this.salary = salary;
@@ -52,4 +54,21 @@ let employee1 = new Employee("Alex", "Pandian", 50000, "IT");
 // If you want to add any property in employee1 object then you can do this 
 employee1.bonus = "10%";
 
+console.log(employee1); */
+
+
+
+function Employee(first, last, salary, dep){
+     this.firstName = first;
+     this.lastName = last;
+     this.salary = salary;
+     this.department = dep;
+}
+
+let employee1 = new Employee("Alex", "Pandian", 50000, "IT");
+
+// If you want to add any function in employee1 object then you can do this
+employee1.fullInfo = function(){
+    return this.firstName + " " + this.lastName + " " + this.salary + " " + this.department
+}
 console.log(employee1);
