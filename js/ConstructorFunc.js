@@ -58,7 +58,7 @@ console.log(employee1); */
 
 
 
-function Employee(first, last, salary, dep){
+/*function Employee(first, last, salary, dep){
      this.firstName = first;
      this.lastName = last;
      this.salary = salary;
@@ -71,4 +71,25 @@ let employee1 = new Employee("Alex", "Pandian", 50000, "IT");
 employee1.fullInfo = function(){
     return this.firstName + " " + this.lastName + " " + this.salary + " " + this.department
 }
+console.log(employee1);*/
+
+
+
+function Employee(first, last, salary, dep){
+     this.firstName = first;
+     this.lastName = last;
+     this.salary = salary;
+     this.department = dep;
+
+     this.fullInfo = function(){
+    return this.firstName + " " + this.lastName + " " + this.salary + " " + this.department
+
+
+}
+
+let employee1 = new Employee("Alex", "Pandian", 50000, "IT");
+let employee2 = new Employee("Tovino", "Thomas", 60000, "IT");
+
+}
 console.log(employee1);
+console.log(employee2);
