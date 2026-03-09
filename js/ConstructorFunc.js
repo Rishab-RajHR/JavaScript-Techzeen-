@@ -24,3 +24,16 @@ let employee2 = {
     salary : 60000,
     department : "AI"
 } */
+
+
+
+// Object Constructor Function
+function Employee(first, last, salary, dep){
+     this.firstName = first;
+     this.lastName = last;
+     this.salary = salary;
+     this.department = dep;
+}
+
+let employee1 = new Employee("Alex", "Pandian", 50000, "IT");
+console.log(employee1);
