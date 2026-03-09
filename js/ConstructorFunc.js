@@ -36,4 +36,6 @@ function Employee(first, last, salary, dep){
 }
 
 let employee1 = new Employee("Alex", "Pandian", 50000, "IT");
+let employee2 = new Employee("Tovino", "Pandian", 60000, "AI");
 console.log(employee1);
+console.log(employee2);
