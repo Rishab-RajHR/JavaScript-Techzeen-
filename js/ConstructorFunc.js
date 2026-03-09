@@ -28,7 +28,7 @@ let employee2 = {
 
 
 // Object Constructor Function
-function Employee(first, last, salary, dep){
+/* function Employee(first, last, salary, dep){
      this.firstName = first;
      this.lastName = last;
      this.salary = salary;
@@ -38,4 +38,18 @@ function Employee(first, last, salary, dep){
 let employee1 = new Employee("Alex", "Pandian", 50000, "IT");
 let employee2 = new Employee("Tovino", "Pandian", 60000, "AI");
 console.log(employee1);
-console.log(employee2);
+console.log(employee2); */
+
+
+ function Employee(first, last, salary, dep){
+     this.firstName = first;
+     this.lastName = last;
+     this.salary = salary;
+     this.department = dep;
+}
+
+let employee1 = new Employee("Alex", "Pandian", 50000, "IT");
+// If you want to add any property in employee1 object then you can do this 
+employee1.bonus = "10%";
+
+console.log(employee1);
