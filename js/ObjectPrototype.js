@@ -6,12 +6,26 @@
  if we want to add new properties and methods at a later point of time, and these properties need sharing across all the instances(objects), then the prototype will be very handy.
 */
 
+let details = {
+    fullDetails : function() {
+        return this.id + " " + this.name;
+    }
+}
+
 let teacher = {
     id : 1,
-    name : "Alex"
+    name : "Alex",
+    // fullDetails : function(){
+    //     return this.id + " " + this.name;
+    // }
 }
 let student = {
-    age : 18
+     id : 10,
+     name : "Pandian",
+    //  fullDetails : function(){
+    //     return this.id + " " + this.name;
+    // }
+    // age : 18
 }
 // console.log(teacher.age); --> not working
 
@@ -21,4 +35,13 @@ let student = {
 teacher.__proto__ = student;
 console.log(teacher.age);
 console.log(teacher);
-console.log(student);
+console.log(teacher.toString());
+// console.log(student);
+
+
+// Inheritance
+teacher.__proto__ = details;
+student.__proto__ = details;
+
+console.log(teacher.fullDetails());
+console.log(student.fullDetails());
