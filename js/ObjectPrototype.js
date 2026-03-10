@@ -20,3 +20,5 @@ let student = {
 
 teacher.__proto__ = student;
 console.log(teacher.age);
+console.log(teacher);
+console.log(student);
