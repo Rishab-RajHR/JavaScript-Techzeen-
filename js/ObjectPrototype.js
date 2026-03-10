@@ -14,3 +14,9 @@ let student = {
     age : 18
 }
 // console.log(teacher.age); --> not working
+
+
+// Object Prototype Concept
+
+teacher.__proto__ = student;
+console.log(teacher.age);
