@@ -32,16 +32,40 @@ let student = {
 
 // Object Prototype Concept
 
-teacher.__proto__ = student;
-console.log(teacher.age);
-console.log(teacher);
-console.log(teacher.toString());
+// teacher.__proto__ = student;
+// console.log(teacher.age);
+// console.log(teacher);
+// console.log(teacher.toString());
 // console.log(student);
 
 
 // Inheritance
-teacher.__proto__ = details;
-student.__proto__ = details;
+// teacher.__proto__ = details;
+// student.__proto__ = details;
 
-console.log(teacher.fullDetails());
-console.log(student.fullDetails());
+// console.log(teacher.fullDetails());
+// console.log(student.fullDetails());
+
+// console.log(teacher);
+// console.log(student);
+
+
+function Employee(first, last, salary, dep) {
+     this.firstName = first;
+     this.lastName = last;
+     this.salary = salary;
+     this.department = dep;
+}
+let employee1 = new Employee("Tovino", "Thomas", 50000, "IT");
+// console.log(employee1);
+
+// Employee.bonus = '10%';  ---> not working
+
+Employee.prototype.bonus = '10%';
+
+let employee2 = new Employee("Basil", "Joseph", 40000,"AF");
+console.log(employee1);
+console.log(employee2);
+console.log(employee2.bonus);
+
+
