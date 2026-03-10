@@ -69,3 +69,7 @@ console.log(employee2);
 console.log(employee2.bonus);
 
 
+String.prototype.custom = "Hii my name is Tovino";
+console.log(name.custom);
+
+
