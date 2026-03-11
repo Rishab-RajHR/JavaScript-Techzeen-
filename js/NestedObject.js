@@ -16,4 +16,5 @@ let student = {
          }
     }
 }
-console.log(student)
+// console.log(student)
+console.log(student.personalInfo);
