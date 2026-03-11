@@ -17,4 +17,5 @@ let student = {
     }
 }
 // console.log(student)
-console.log(student.personalInfo);
+// console.log(student.personalInfo);
+console.log(student.personalInfo.firstName);
