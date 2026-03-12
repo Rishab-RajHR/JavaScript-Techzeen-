@@ -9,13 +9,14 @@
 <body>
    <ul>
     <li>Hello</li>
-    <li>Alex</li>
+    <li id="me">Alex</li>
     <li>Pandian</li>
    </ul>
 
    <!-- Internal JS -->
     <script>
-        console.log("Hello")
+        let element = document.getElementById("me");
+        console.log(element);
     </script>
 </body>
 </html>
