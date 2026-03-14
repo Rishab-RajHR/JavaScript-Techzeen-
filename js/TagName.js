@@ -1,4 +1,5 @@
-let result = document.getElementsByTagName('h1');
+let divResult = document.getElementById('my-content');
+let result = divResult.getElementsByTagName('h1');
 // console.log(result);
 // result.innerHTML = "HI"; --> not working
 
