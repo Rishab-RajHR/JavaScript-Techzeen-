@@ -14,3 +14,9 @@ for(let i=0; i<element.length; i++){
       let result = element[i].innerHTML;
       console.log(result);
 }
+
+// For setting the value
+for(let i=0; i<element.length; i++){
+       element[i].innerHTML = "JavaScript";
+    
+}
