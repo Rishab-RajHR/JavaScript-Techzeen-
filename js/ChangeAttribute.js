@@ -10,6 +10,6 @@ heading.setAttribute("class","heading-class");
 // For removing an attribute
 // heading.removeAttribute("class");
 
-// Check attribute 
+// Check attribute in JavaScript
 let result = heading.hasAttribute("name");
 console.log(result);
