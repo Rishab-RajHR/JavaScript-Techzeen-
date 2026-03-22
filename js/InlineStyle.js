@@ -5,4 +5,9 @@ let selectedElement = document.getElementById("main");
 
 
 // Second Method
-selectedElement.setAttribute("style","color: white; background-color: purple;")
+// selectedElement.setAttribute("style","color: white; background-color: purple;")
+
+
+// Third Method
+selectedElement.style.color = "aqua";
+selectedElement.style.backgroundColor = "red";
