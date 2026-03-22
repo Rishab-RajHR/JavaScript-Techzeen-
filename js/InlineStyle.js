@@ -2,6 +2,7 @@ let selectedElement = document.getElementById("main");
 
 // First Method
 // selectedElement.style.cssText = "background-color: aqua; color: white;";
+selectedElement.style.cssText += "background-color: purple;"
 
 
 // Second Method
@@ -9,5 +10,5 @@ let selectedElement = document.getElementById("main");
 
 
 // Third Method
-selectedElement.style.color = "aqua";
-selectedElement.style.backgroundColor = "red";
+// selectedElement.style.color = "aqua";
+// selectedElement.style.backgroundColor = "red";
