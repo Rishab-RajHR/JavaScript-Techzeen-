@@ -10,3 +10,7 @@ function secondClick() {
 
 btn.addEventListener('click', firstClick);
 btn.addEventListener('click', secondClick);
+
+// It works in defined  function  name not on anonymous function and inline function.
+
+btn.removeEventListener('click', secondClick);
