@@ -24,3 +24,10 @@ function message() {
 }
 // message();
 window.message();
+
+// console.log(window);
+
+
+alert("Alex");
+
+window.alert("Hii Window");
