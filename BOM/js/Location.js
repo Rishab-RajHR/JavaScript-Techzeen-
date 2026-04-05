@@ -7,7 +7,7 @@ console.log(location.protocol);
 function go(){
   //  window.location = "https://www.google.com";
   //  For setting the URL
-  location.href = "https://www.google.com";
+  // location.href = "https://www.google.com";
 
   // Method for URL Redirection - assign and replace
   location.assign("https://www.google.com")  // assign maintains history (add in history)
