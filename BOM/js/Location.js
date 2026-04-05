@@ -12,4 +12,7 @@ function go(){
   // Method for URL Redirection - assign and replace
   location.assign("https://www.google.com")  // assign maintains history (add in history)
   location.replace("https://www.google.com") // replace doesn't maintains history (not add in history)
+
+  // reload webpage
+  location.reload();
 }
