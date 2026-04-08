@@ -32,6 +32,11 @@
 // console.log(b);
 
 // let can be changed after declaring
-let b = 2;
-b = 3;
-console.log(b);
+// let b = 2;
+// b = 3;
+// console.log(b);
+
+// Once declared cannot be changed later in const (It is fixed)
+// const b = 4;
+// b = 3;
+// console.log(b);
