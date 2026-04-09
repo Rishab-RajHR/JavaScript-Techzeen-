@@ -14,3 +14,4 @@ function add(...args){
 }
 add(2,3);
 add(1,5,9);
+add(4,8,5,9);
