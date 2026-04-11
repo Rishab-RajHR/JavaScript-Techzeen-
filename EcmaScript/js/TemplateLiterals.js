@@ -6,10 +6,16 @@
 // Template Literals 
 // We can give any number of spaces
 
-let str = `Alex
+// let str = `Alex
 
 
 
-Pandian`;
+// Pandian`;
 
-console.log(str);
+// console.log(str);
+
+
+let name = "Basil Joseph";
+
+console.log("My name is " + name + " and I'm a Youtuber")
+console.log("My name is ${name} and I'm a Youtuber")
