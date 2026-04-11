@@ -22,4 +22,4 @@ console.log(`My name is ${name} and I'm a Youtuber`)
 
 
 let age = 20;
-console.log(`My age is ${age}`)
+console.log(`My age is ${age*2}`)
