@@ -18,4 +18,8 @@
 let name = "Basil Joseph";
 
 console.log("My name is " + name + " and I'm a Youtuber")
-console.log("My name is ${name} and I'm a Youtuber")
+console.log(`My name is ${name} and I'm a Youtuber`)
+
+
+let age = 20;
+console.log(`My age is ${age}`)
