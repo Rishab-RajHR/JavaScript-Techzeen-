@@ -11,7 +11,6 @@ let info = ["Alex", "JS", 21];
 // Array Destructuring
 // let [name, fav, age, extra] = info;
 
-
 // console.log(name);
 // console.log(fav);
 // console.log(age);
@@ -19,13 +18,27 @@ let info = ["Alex", "JS", 21];
 
 
 // Nested Array Concept
-let info1 = ["Alex", "JS", 21, ['Pandain', 2026]];
+// let info1 = ["Alex", "JS", 21, ['Pandain', 2026]];
 
 // nested array destructuring
-let [name, fav, age, [channel, year]] = info1;
+// let [name, fav, age, [channel, year]] = info1;
+
+// console.log(name);
+// console.log(fav);
+// console.log(age);
+// console.log(channel);
+// console.log(year);
+
+
+
+// using function
+function details(){
+   //....
+   return ["Alex", 21, "CS"];
+}
+
+let[name,age,dep] = details();
 
 console.log(name);
-console.log(fav);
 console.log(age);
-console.log(channel);
-console.log(year);
+console.log(dep);
