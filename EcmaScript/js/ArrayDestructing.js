@@ -44,6 +44,7 @@ let info = ["Alex", "JS", 21];
 // console.log(dep);
 
 // For default value
+// Default value when value not given
 
 let info2 = ["Alex", "JS", 21];
 
