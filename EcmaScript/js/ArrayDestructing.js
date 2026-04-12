@@ -31,14 +31,26 @@ let info = ["Alex", "JS", 21];
 
 
 
-// using function
-function details(){
+// Using function
+// function details(){
    //....
-   return ["Alex", 21, "CS"];
-}
+//    return ["Alex", 21, "CS"];
+// }
 
-let[name,age,dep] = details();
+// let[name,age,dep] = details();
+
+// console.log(name);
+// console.log(age);
+// console.log(dep);
+
+// For default value
+
+let info2 = ["Alex", "JS", 21];
+
+// Array Destructuring
+let [name, fav, age, extra="Extra Class"] = info2;
 
 console.log(name);
+console.log(fav);
 console.log(age);
-console.log(dep);
+console.log(extra);
