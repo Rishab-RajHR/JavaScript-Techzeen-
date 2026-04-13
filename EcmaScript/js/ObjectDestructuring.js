@@ -1,8 +1,8 @@
-let employee = {
-   name : 'Alex',
-   age : 21,
-   dep : 'CS'
-}
+// let employee = {
+//    name : 'Alex',
+//    age : 21,
+//    dep : 'CS'
+// }
 
 // Without Object Destructuring
 // let name = employee.name;
@@ -23,5 +23,22 @@ let employee = {
 
 
 // Set to default
-let {name, age=33, dep} = employee;
-console.log(age);
+// let {name, age=33, dep} = employee;
+// console.log(age);
+
+
+// Nested Object
+
+let employee = {
+   name : 'Alex',
+   age : 21,
+   
+   contact : {
+       email : 'a@f.com',
+       phone : '123456789'
+   }
+};
+
+let {name, age, contact : {email, phone} } = employee;
+console.log(email)
+console.log(phone) 
