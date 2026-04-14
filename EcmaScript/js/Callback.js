@@ -1,4 +1,11 @@
-function add(num1, num2){
-     console.log(num1 + num2);
+function greetings(){
+     console.log("Good Morning!");
 }
-add(1,2)
+
+function add(num1, num2, call){
+     console.log(num1 + num2);
+     call();
+}
+// add(1,2);
+add(1, 2, greetings);
+
