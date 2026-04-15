@@ -44,14 +44,29 @@
 // }
 // greetings();
 
+
+
 // Arrow Function with no parameter remove the parenthesis
-let greetings = () => console.log("Good Morning");
-greetings();
+// let greetings = () => console.log("Good Morning");
+// greetings();
 
 
 
 // Anonymous Function 
-let a = function(){
-    console.log("Welcome");
-}
-a();
+// let a = function(){
+//     console.log("Welcome");
+// }
+// a();
+
+
+// Arrow Function with Anonymous Function
+// let a = () => console.log("Good Night");
+// a();
+
+
+// document.addEventListener("click", function(){
+//      console.log("Alex")
+// })
+
+// Arrow Function with Anonymous Function
+document.addEventListener('click', () => console.log("Alex"));
