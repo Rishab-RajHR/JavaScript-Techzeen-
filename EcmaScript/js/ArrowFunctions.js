@@ -6,7 +6,14 @@
 
 
 // Arrow Function
+// let sum = (a,b) => {
+//     console.log(a+b);
+// }
+// sum(2,3);
+
+// Another shortform of Arrow Function
 let sum = (a,b) => {
-    console.log(a+b);
+    return a+b;
 }
-sum(2,3);
+console.log(sum(2,4));
+
