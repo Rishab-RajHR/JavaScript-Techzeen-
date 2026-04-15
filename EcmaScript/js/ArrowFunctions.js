@@ -46,3 +46,12 @@
 
 // Arrow Function with no parameter remove the parenthesis
 let greetings = () => console.log("Good Morning");
+greetings();
+
+
+
+// Anonymous Function 
+let a = function(){
+    console.log("Welcome");
+}
+a();
