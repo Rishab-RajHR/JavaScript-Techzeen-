@@ -34,6 +34,15 @@
 
 // Arrow Function with one parameter remove the parenthesis
 
-let double = a => a*a;
-console.log(double(4));
+// let double = a => a*a;
+// console.log(double(4));
 
+
+// When there is no parameter
+// function greetings(){
+//     console.log("Hi")
+// }
+// greetings();
+
+// Arrow Function with no parameter remove the parenthesis
+let greetings = () => console.log("Good Morning");
