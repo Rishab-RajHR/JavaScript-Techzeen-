@@ -19,6 +19,14 @@
 
 // Another shortform of Arrow Function
 
-let sum = (a,b) => a+b;
+// let sum = (a,b) => a+b;
 
-console.log(sum(2,4));
+// console.log(sum(2,4));
+
+
+// When one parameter is there then we can remove the paranthesis also
+
+function double(a){
+   return a*a;
+}
+console.log(double(3));
