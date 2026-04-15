@@ -24,9 +24,16 @@
 // console.log(sum(2,4));
 
 
-// When one parameter is there then we can remove the paranthesis also
+// When one parameter 
 
-function double(a){
-   return a*a;
-}
-console.log(double(3));
+// function double(a){
+//    return a*a;
+// }
+// console.log(double(3));
+
+
+// Arrow Function with one parameter remove the parenthesis
+
+let double = a => a*a;
+console.log(double(4));
+
