@@ -12,7 +12,11 @@
 let arr = [10,30,50,70];
 
 // Using anonymous Function
-let result = arr.map(function(num){
-     return num*3;
-});
+// let result = arr.map(function(num){
+//      return num*3;
+// });
+
+// Using the arrow Function
+let result = arr.map((num) => nuum*2);
+
 console.log(result);
