@@ -7,3 +7,6 @@ document.cookie = "item=phone,headphone"; // update cookie
 let cocomo = document.cookie;
 
 console.log(cocomo);
+
+// delete a cookie
+document.cookie = "item=phone,headphones; expires=Thu, 20 April 2026 12:00:00 UTC";
