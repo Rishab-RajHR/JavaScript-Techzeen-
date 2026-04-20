@@ -3,7 +3,7 @@
 // console.log("Second")
 // console.log("Third")
 
-//Asynchronous Programming => It is not dependent on other statment
+//Asynchronous Programming => It is not dependent on other statment (Independent Programming)
 console.log("First")
 
 setTimeout(() => {
