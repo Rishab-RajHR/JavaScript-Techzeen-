@@ -9,3 +9,11 @@ Rejected
 
 A promise starts in a pending state. That means the process is not complete. If the operation is successful, the process ends in a fulfilled state. And , if an error occurs, the process ends in a rejected state.
 */
+
+console.log("Hello");
+
+setTimeout(function(){
+     console.log("My Name is Alex Pandian")
+}, 3000);
+
+console.log("Good Morning");
