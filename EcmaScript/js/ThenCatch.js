@@ -21,9 +21,13 @@ let pr2 = new Promise((resolve, reject) => {
 })
 
 
-pr2.then((value) => {
-    console.log(value);
-}, (error) => {
-    console.log("Error in Promise 2");
+// pr2.then((value) => {
+//     console.log(value);
+// }, (error) => {
+//     console.log("Error in Promise 2");
+// })
+
+pr2.catch((error) => {
+    console.log("Error Caught")
 })
 console.log(pr1, pr2);
