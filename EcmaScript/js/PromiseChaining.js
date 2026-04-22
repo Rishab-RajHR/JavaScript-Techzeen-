@@ -14,4 +14,6 @@ p1.then((value) => {
     return p2;
 }).then((value) => {
     console.log(value);
+}).then((value) => {
+    console.log("confirmed Resolved");
 })
