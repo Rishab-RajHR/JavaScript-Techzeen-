@@ -6,4 +6,12 @@ let p1 = new Promise((resolve, reject) => {
 });
 p1.then((value) => {
     console.log(value);
+    let p2 = new Promise((resolve, reject) => {
+        setTimeout(() => {
+             resolve("Promise 2 is resolve");
+        }, 2000);
+    });
+    return p2;
+}).then((value) => {
+    console.log(value);
 })
