@@ -5,6 +5,14 @@ let p1 = new Promise((resolve,reject) => {
     }, 3000);
 })
 
+// Multiple Handlers are not dependent on each other they are independent
 p1.then(() => {
     console.log("Promise is Resolved");
+})
+p1.then(() => {
+    console.log("Successfully");
+})
+
+p1.then(() => {
+    console.log("Promise");
 })
