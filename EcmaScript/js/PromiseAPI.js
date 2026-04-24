@@ -5,8 +5,8 @@ let p1 = new Promise((resolve, reject) => {
 })
 let p2 = new Promise((resolve, reject) => {
     setTimeout(() => {
-        // resolve(2);
-        reject(new Error("Error In Promise 2"))
+        resolve(2);
+        // reject(new Error("Error In Promise 2"))
     }, 3000);
 })
 let p3 = new Promise((resolve, reject) => {
@@ -25,7 +25,12 @@ let p3 = new Promise((resolve, reject) => {
 //     console.log(value);
 // })
 
-let promise_api = Promise.all([p1, p2, p3]);
+// let promise_api = Promise.all([p1, p2, p3]);
+// let promise_api = Promise.allSettled([p1, p2, p3]);
+// let promise_api = Promise.race([p1, p2, p3]);
+// let promise_api = Promise.any([p1, p2, p3]);
+// let promise_api = Promise.resolve(12);
+let promise_api = Promise.reject(new Error("Promise Bro having error"));
 promise_api.then((value) => {
     console.log(value)
 })
