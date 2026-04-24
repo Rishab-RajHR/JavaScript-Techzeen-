@@ -5,11 +5,15 @@ let p1 = new Promise((resolve, reject) => {
 })
 let p2 = new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve(1);
-    }, 2000);
+        resolve(2);
+    }, 3000);
 })
 let p3 = new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve(1);
-    }, 2000);
+        resolve(3);
+    }, 4000);
+})
+
+pt.then((value) => {
+    console.log(value);
 })
