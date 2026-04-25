@@ -10,7 +10,7 @@ async function say(){
     //     console.log(val);
     // })
 
-    // Do this
+    // Do this => p1 resolves then a is called
     let a = await p1;
     console.log(a);
 }
