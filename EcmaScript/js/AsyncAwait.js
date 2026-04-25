@@ -4,5 +4,12 @@ function say(){
             resolve("P1 Done!!");
         }, 3000);
     })
-    console.log(p1);
+    // console.log(p1);
+
+    p1.then((val) => {
+        console.log(val);
+    })
+
 }
+
+say();
