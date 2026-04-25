@@ -1,4 +1,4 @@
-function say(){
+async function say(){
     let p1 = new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve("P1 Done!!");
@@ -6,10 +6,12 @@ function say(){
     })
     // console.log(p1);
 
-    p1.then((val) => {
-        console.log(val);
-    })
+    // p1.then((val) => {
+    //     console.log(val);
+    // })
 
+    // Do this
+    let a = await p1;
+    console.log(a);
 }
-
 say();
