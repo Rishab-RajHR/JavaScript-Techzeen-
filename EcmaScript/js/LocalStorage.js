@@ -17,5 +17,8 @@ if(key == 'delete'){
     localStorage.clear();
 }
 
-//Length
+// Length
 console.log(localStorage.length);
+
+// Indexing
+console.log(localStorage.key(2));
