@@ -16,3 +16,6 @@ if(key == "password"){
 if(key == 'delete'){
     localStorage.clear();
 }
+
+//Length
+console.log(localStorage.length);
