@@ -11,3 +11,8 @@ console.log(`The value ${key} is ${localStorage.getItem(key)}`)
 if(key == "password"){
     localStorage.removeItem(key);
 }
+
+// clear
+if(key == 'delete'){
+    localStorage.clear();
+}
