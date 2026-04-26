@@ -3,3 +3,6 @@ let value = prompt("Enter Value: ")
 
 // setItem
 localStorage.setItem(key, value);
+
+// getItem
+console.log(`The value ${key} is ${localStorage.getItem(key)}`)
