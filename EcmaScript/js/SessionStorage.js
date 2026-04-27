@@ -6,3 +6,6 @@ console.log(sessionStorage.getItem('name'));
 
 // For removing the item
 sessionStorage.removeItem('age');
+
+// For clearing the whole Storage
+sessionStorage.clear();
