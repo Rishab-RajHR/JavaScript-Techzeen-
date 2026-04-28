@@ -19,5 +19,7 @@ DRY-----> Don't Repeat YourSelf
  *****************  How To Model a Problem In OOPs ********************
  Identity----> Class -----> Employee
  State----> Attributes -----> empName, empAge, empSalary;
- 
+ Behaviour----> Methods ----> getSalary();
+
 */
+
