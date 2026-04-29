@@ -1,21 +1,22 @@
 class Form{
      submit(){
-        alert(this.name + ": Form Submitted!!");
+        alert(this.name + ": Form Submitted!! and his id is: " + this.id);
      }
      cancel(){
-        alert(this.name + ": Form is not submitted!!");
+        alert(this.name + ": Form is not submitted!! and his id is: " + this.id);
      }
-     fillInfo(givenName){
+     fillInfo(givenName, id){
         this.name = givenName;
+        this.id = id;
      }
 }
 
 let alex = new Form();
-alex.fillInfo("Alex");
+alex.fillInfo("Alex", 123);
 alex.submit();
 let basil = new Form();
-basil.fillInfo("Basil");
-basil.submit();
+basil.fillInfo("Basil",456);
+basil.cancel();
 
 // Pascal Convention
 // AlexPandian ---> class
