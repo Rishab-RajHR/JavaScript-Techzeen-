@@ -19,3 +19,7 @@ class User{
 let user1 = new User();
 let user2 = new User();
 let user3 = new User();
+
+user1.userDetails("Alex", 22);
+user1.userDetails("Basil", 24);
+user1.userDetails("Tovino", 26);
