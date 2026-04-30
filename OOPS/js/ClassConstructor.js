@@ -9,6 +9,10 @@ Note: A class cannot have more than one constructor() method. This will throw a 
 */
 
 class User{
+    constructor(){
+        console.log("Contructor Called....")
+    }
+
     userDetails(n, a){
         this.firstName = n;
         this.age = a;
