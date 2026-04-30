@@ -7,3 +7,15 @@ The constructor() method is called automatically when a class is initiated, and 
 Note: A class cannot have more than one constructor() method. This will throw a SyntaxError.
 
 */
+
+class User{
+    userDetails(n, a){
+        this.firstName = n;
+        this.age = a;
+        alert("Name: " + this.firstName + " Age: " + this.age);
+    }
+}
+
+let user1 = new User();
+let user2 = new User();
+let user3 = new User();
