@@ -9,21 +9,27 @@ Note: A class cannot have more than one constructor() method. This will throw a 
 */
 
 class User{
-    constructor(){
+    // constructor(){
+    //     console.log("Contructor Called....")
+    // }
+    constructor(n, a){
         console.log("Contructor Called....")
-    }
-
-    userDetails(n, a){
         this.firstName = n;
         this.age = a;
         alert("Name: " + this.firstName + " Age: " + this.age);
     }
+
+    // userDetails(n, a){
+    //     this.firstName = n;
+    //     this.age = a;
+    //     alert("Name: " + this.firstName + " Age: " + this.age);
+    // }
 }
 
-let user1 = new User();
-let user2 = new User();
-let user3 = new User();
+let user1 = new User("Alex", 22);
+let user2 = new User("Basil", 24);
+let user3 = new User("Tovino", 26);
 
-user1.userDetails("Alex", 22);
-user1.userDetails("Basil", 24);
-user1.userDetails("Tovino", 26);
+// user1.userDetails("Alex", 22);
+// user1.userDetails("Basil", 24);
+// user1.userDetails("Tovino", 26);
