@@ -10,6 +10,7 @@ To use class inheritance, you use the extends keyword.
 
 */
 
+// parent / base / super class
 class Person{
     constructor(name){
          this.name = name;
@@ -18,13 +19,10 @@ class Person{
        console.log(`Hello I'm ${this.name}`);
     }
 }
-class Student{
-    constructor(name){
-        this.name = name;
-    }
-    greet(){
-       console.log(`Hello I'm ${this.name}`);
-    }
+
+// child / derived / sub class
+class Student extends Person{
+           
 }
 
 let student1 = new Student("Alex");
