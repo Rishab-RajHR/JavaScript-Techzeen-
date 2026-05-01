@@ -27,6 +27,13 @@ class Student extends Person{
       }
 }
 
+class Employee extends Person{
+    
+}
+
 let student1 = new Student("Alex");
 student1.greet();
 student1.sayPresent();
+
+let employee1  = new Employee("Thomas");
+employee1.greet();
