@@ -22,8 +22,11 @@ class Person{
 
 // child / derived / sub class
 class Student extends Person{
-           
+      sayPresent(){
+          console.log("Present Sir");
+      }
 }
 
 let student1 = new Student("Alex");
 student1.greet();
+student1.sayPresent();
