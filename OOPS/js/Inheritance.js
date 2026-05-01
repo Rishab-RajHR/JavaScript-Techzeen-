@@ -9,3 +9,23 @@ Inheritance is a useful feature that allows code reusability.
 To use class inheritance, you use the extends keyword.
 
 */
+
+class Person{
+    constructor(name){
+         this.name = name;
+    }
+    greet(){
+       console.log(`Hello I'm ${this.name}`);
+    }
+}
+class Student{
+    constructor(name){
+        this.name = name;
+    }
+    greet(){
+       console.log(`Hello I'm ${this.name}`);
+    }
+}
+
+let student1 = new Student("Alex");
+student1.greet();
