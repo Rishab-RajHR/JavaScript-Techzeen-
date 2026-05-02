@@ -6,7 +6,8 @@ class Parent{
 
 class Child extends Parent {
       sayName(name){
-         console.log("Mera Naam " + name + " hai");
+        super.sayName("Thomas");
+        //  console.log("Mera Naam " + name + " hai");
       }
 }
 
