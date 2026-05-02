@@ -11,4 +11,4 @@ class Child extends Parent {
     }
 }
 
-let c = new Child("Basil Joseph");
+let c = new Child("Basil Joseph",22);
