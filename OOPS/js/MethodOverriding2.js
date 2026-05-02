@@ -5,7 +5,10 @@ class Parent {
 }
 
 class Child extends Parent {
-
+    constructor(name,age){
+        super(name);
+        console.log(name + " Age is: " + age);
+    }
 }
 
 let c = new Child("Basil Joseph");
