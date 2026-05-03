@@ -13,7 +13,8 @@ class Employee{
       // console.log(`My Name is ${Employee.capitalized(this.name)}`);
    }
    static capitalized(name){
-       return name.charAt(0).toUpperCase() + name.substr(1, name.length);
+      //  return name.charAt(0).toUpperCase() + name.substr(1, name.length);
+      return name.toUpperCase();
    }
 }
 
