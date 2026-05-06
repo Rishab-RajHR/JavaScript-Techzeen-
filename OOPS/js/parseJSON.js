@@ -24,3 +24,6 @@ let data = `
         }
      ]
 }`;
+
+let dObj = JSON.parse(data);
+console.log(dObj);
