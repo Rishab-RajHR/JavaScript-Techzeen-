@@ -33,4 +33,6 @@ console.log(dObj['age']);
 console.log(dObj['is_employee']);
 console.log(dObj['language']);
 console.log(dObj['language'][2]);
+console.log(dObj['contact']);
+console.log(dObj['contact']['email']);
 
