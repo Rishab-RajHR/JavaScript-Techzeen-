@@ -26,4 +26,8 @@ let data = `
 }`;
 
 let dObj = JSON.parse(data);
-console.log(dObj);
+// console.log(dObj);
+
+console.log(dObj['name']);
+console.log(dObj['age']);
+
