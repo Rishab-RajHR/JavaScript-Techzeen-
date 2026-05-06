@@ -36,3 +36,7 @@ console.log(dObj['language'][2]);
 console.log(dObj['contact']);
 console.log(dObj['contact']['email']);
 
+// Accessing the array of objects
+console.log(dObj['students'][0]['name']);
+console.log(dObj['students'][2]['class']);
+
