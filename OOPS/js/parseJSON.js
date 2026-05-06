@@ -30,4 +30,7 @@ let dObj = JSON.parse(data);
 
 console.log(dObj['name']);
 console.log(dObj['age']);
+console.log(dObj['is_employee']);
+console.log(dObj['language']);
+console.log(dObj['language'][2]);
 
