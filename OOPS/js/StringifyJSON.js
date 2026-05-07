@@ -5,3 +5,5 @@ let student = {
 }
 
 // Converting the JavaScript Object to JSON
+let jStr = JSON.stringify(student);
+console.log(jStr);
