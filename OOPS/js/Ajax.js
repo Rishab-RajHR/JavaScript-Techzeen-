@@ -21,10 +21,11 @@ function loadData(){
 
    xhttp.onreadystatechange = function(){
        if(this.readyState == 4 && this.status == 200){
-          console.log(this.response);
+          // console.log(this.response);
+          document.getElementById('heading').innerHTML = this.response;
        }
    }
 
-   xhttp.open("GET","../file.txt",true);
+   xhttp.open("GET","./file.txt",true);
    xhttp.send();
 }
