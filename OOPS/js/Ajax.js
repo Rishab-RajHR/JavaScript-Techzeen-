@@ -24,6 +24,9 @@ function loadData(){
           // console.log(this.response);
           document.getElementById('heading').innerHTML = this.response;
        }
+       else if(this.readyState == 4 && this.status == 404){
+         document.getElementById('heading').innerHTML = "Page Not Found";
+       }
    }
 
    xhttp.open("GET","./file.txt",true);
