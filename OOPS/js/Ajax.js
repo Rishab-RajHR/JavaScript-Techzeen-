@@ -29,6 +29,7 @@ function loadData(){
        }
    }
 
-   xhttp.open("GET","./file.txt",true);
+  //  xhttp.open("GET","./file.txt",true);
+     xhttp.open("GET","https://jsonplaceholder.typicode.com/users" , true)
    xhttp.send();
 }
