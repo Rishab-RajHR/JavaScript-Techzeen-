@@ -23,14 +23,14 @@
 
 function postData(){
     url = 'https://dummy.restapiexample.com/api/v1/create';
-    data = {"name":"Alex","salary":"123","age":"23"};
+    data = '{"name":"Alex","salary":"123","age":"23"}'
     params = {
-       method : 'post',
-       header : {
-          'Content-Type' : 'application/json'
-       },
-       body : data
+         method : 'post',
+         headers : {
+             'Content-Type' : 'application/json'
+         },
+         body : data
     }
-    fetch(url, parama).then(response => response.text())
-    .then(data => console.log(data)) 
+    fetch(url, params).then(response => response.text())
+    .then(data => console.log(data))
 }
