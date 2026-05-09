@@ -16,12 +16,6 @@
 
 function getData(){
     url = 'https://jsonplaceholder.typicode.com/user';
-    console.log("getData Started")
-    fetch(url).then((response) => {
-        console.log("In first .then")
-        return response.text();
-    }).then((data) => {
-        console.log("In second .then")
-        console.log(data);
-    })
+    fetch(url).then(response => response.text())
+    .then(data => console.log(data))
 }
