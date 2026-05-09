@@ -14,8 +14,23 @@
 // getData();
 // console.log("After running getData")
 
-function getData(){
-    url = 'https://jsonplaceholder.typicode.com/user';
-    fetch(url).then(response => response.text())
-    .then(data => console.log(data))
+// function getData(){
+//     url = 'https://jsonplaceholder.typicode.com/users';
+//     fetch(url).then(response => response.text())
+//     .then(data => console.log(data))
+// }
+
+
+function postData(){
+    url = 'https://dummy.restapiexample.com/api/v1/create';
+    data = {"name":"Alex","salary":"123","age":"23"};
+    params = {
+       method : 'post',
+       header : {
+          'Content-Type' : 'application/json'
+       },
+       body : data
+    }
+    fetch(url, parama).then(response => response.text())
+    .then(data => console.log(data)) 
 }
