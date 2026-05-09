@@ -10,6 +10,6 @@ function getData(){
     })
 }
 
-console.log("Before running getData")
-getData();
-console.log("After running getData")
+// console.log("Before running getData")
+// getData();
+// console.log("After running getData")
