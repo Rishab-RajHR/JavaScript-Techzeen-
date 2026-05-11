@@ -14,8 +14,8 @@
                    <input type="text" name="display" readonly>
                </div>
                <div>
-                  <input type="button" value="AC" onclick="display.value += ''">
-                  <input type="button" value="Del" onclick="display.value += ''">
+                  <input type="button" value="AC" onclick="display.value = ''">
+                  <input type="button" value="Del" onclick="display.value = display.value.slice(0,-1)">
                   <input type="button" value="." onclick="display.value += '.'">
                   <input type="button" value="/" onclick="display.value += '/'">
                </div>
