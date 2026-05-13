@@ -10,4 +10,5 @@ function addTask(){
        listItem.innerHTML = inputElement.value;
        listElement.appendChild(listItem);
     }
+    inputElement.value = '';
 }
