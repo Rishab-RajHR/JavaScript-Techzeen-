@@ -14,13 +14,25 @@ function addTask(){
        listItem.appendChild(span);
     }
     inputElement.value = '';
+    saveTask();
 }
 
 listElement.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
         e.target.classList.toggle("checked");
+        saveTask();
     }
     else if(e.target.tagName === "SPAN"){
        e.target.parentElement.remove();
+       saveTask();
     }
 }, false);
+
+function saveTask(){
+   localStorage.setItem("data", listElement.innerHTML);
+}
+
+function show(){
+   listElement.innerHTML = localStorage.getItem("data");
+}
+show();
