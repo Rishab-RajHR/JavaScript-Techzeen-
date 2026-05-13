@@ -9,6 +9,9 @@ function addTask(){
        let listItem = document.createElement("li");
        listItem.innerHTML = inputElement.value;
        listElement.appendChild(listItem);
+       let span = document.createElement("span");
+       span.innerHTML = "\u00d7";
+       listItem.appendChild(span);
     }
     inputElement.value = '';
 }
