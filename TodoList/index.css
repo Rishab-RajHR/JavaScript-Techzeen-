@@ -78,4 +78,7 @@ ul li::before{
     border-radius: 50%;
     background-image: url('unchecked.png');
     background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
 }
