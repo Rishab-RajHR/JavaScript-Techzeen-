@@ -6,3 +6,20 @@
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
 }
+
+:root{
+    --color: #1876b8;
+    --bg-color: #001f41;
+    --winning-block: #99b8e8;
+}
+
+body{
+   color: var(--color);
+   background-color: var(--bg-color);
+}
+
+h1{
+   font-size: 44px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
