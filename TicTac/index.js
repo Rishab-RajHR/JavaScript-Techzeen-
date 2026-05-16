@@ -33,5 +33,7 @@ function boxClicked(e){
 
             return;
         }
+
+        currentPlayer = currentPlayer == X_Text ? O_Text : X_Text;
      }
 }
