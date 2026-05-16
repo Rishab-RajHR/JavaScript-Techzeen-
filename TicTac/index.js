@@ -26,7 +26,7 @@ function boxClicked(e){
         e.target.innerText = currentPlayer;
         if (playerHasWon() !== false) {
             playerText.innerText = `${currentPlayer} has Won!!!`;
-            let winning_blocks = playerHasWon();
+            const winning_blocks = playerHasWon();
             winning_blocks.map(box => boxes[box].style.backgroundColor = winningBlock)
 
             boxes.forEach(box => box.removeEventListener('click', boxClicked))
@@ -70,3 +70,4 @@ function restart(){
       currentPlayer = X_Text;
       startGame();
 }
+startGame();
