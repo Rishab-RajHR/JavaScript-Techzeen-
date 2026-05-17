@@ -24,3 +24,23 @@
     margin-bottom: 50px;
     color: #fff;
 }
+
+
+.hero span{
+    color: #019f55;
+    border-bottom: 5px solid #019f55;
+}
+
+textarea{
+    width: 70%;
+    height: 250px;
+    background: #fff;
+    color: #002339;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
