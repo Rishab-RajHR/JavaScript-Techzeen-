@@ -67,3 +67,14 @@ button{
    outline: 0;
    cursor: pointer;
 }
+
+select{
+    flex: 1;
+    color: #fff;
+    background: #019f55;
+    height: 50px;
+    padding: 0px 80px;
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+}
