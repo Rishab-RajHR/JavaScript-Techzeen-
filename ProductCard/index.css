@@ -35,4 +35,10 @@ button{
    border: none;
    border-radius: 5px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+   cursor: pointer;
+}
+
+button.active{
+   background: #Be3144;
+   color: #fff;
 }
