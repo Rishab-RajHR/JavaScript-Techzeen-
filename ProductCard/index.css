@@ -42,3 +42,11 @@ button.active{
    background: #Be3144;
    color: #fff;
 }
+
+.filterable-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
