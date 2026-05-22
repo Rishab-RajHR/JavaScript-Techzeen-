@@ -20,5 +20,14 @@ createBtn.addEventListener("click", ()=>{
 notesContainer.addEventListener("click", function(e){
      if(e.target.tagName === "IMG"){
          e.target.parentElement.remove();
+         updateStorage();
+     }
+     else if(e.target.tagName === "P"){
+        notes = document.querySelectorAll(".input-box");
+        notes.forEach(nt => {
+            nt.onkeyup = function(){
+                updateStorage();
+            }
+        })
      }
 })
