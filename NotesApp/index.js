@@ -2,6 +2,11 @@ const notesContainer = document.querySelector(".notes-container");
 const createBtn = document.querySelector(".btn");
 let notes = document.querySelectorAll(".input-box");
 
+function updateStorage() {
+   localStorage.setItem("notes", notesContainer.innerHTML);
+}
+
+
 createBtn.addEventListener("click", ()=>{
     let inputBox = document.createElement("p");
     let img = document.createElement("img");
