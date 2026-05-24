@@ -53,3 +53,15 @@ p{
    margin: 30px 0;
    font-weight: 500;
 }
+
+
+button{
+    background-color: #e92e3d;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 15px 0;
+    width: 150px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
