@@ -5,3 +5,5 @@ let images = ["dice1.svg",
 "dice5.svg",
 "dice6.svg"];
 let dice = document.querySelectorAll("img");
+
+console.log(dice);
