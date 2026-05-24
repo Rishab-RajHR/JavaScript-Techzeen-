@@ -9,6 +9,6 @@ body{
    background: linear-gradient(
       #e92e3d,
       #ff6e6a
-   );
+   ) 0 100% no-repeat;
    background-size: 100% 50%;
 }
