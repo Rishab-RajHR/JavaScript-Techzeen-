@@ -6,4 +6,13 @@ let images = ["dice1.svg",
 "dice6.svg"];
 let dice = document.querySelectorAll("img");
 
-console.log(dice);
+function roll(){
+    dice.forEach(function(die){
+       die.classList.add("shake");
+    });
+    setTimeout(function(){
+       die.forEach(function(die){
+          die.classList.remove("shake");
+       });
+    });
+}
