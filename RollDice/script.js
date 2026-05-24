@@ -14,5 +14,8 @@ function roll(){
        die.forEach(function(die){
           die.classList.remove("shake");
        });
-    });
+       let dieOneValue = Math.floor(Math.random()*6);
+       let dieTwoValue = Math.floor(Math.random()*6);
+       console.log(dieOneValue,dieTwoValue);
+    }, 1000);
 }
