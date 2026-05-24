@@ -33,3 +33,16 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+.dice-wrapper img{
+     width: 100px;
+     height: 100px;
+}
+
+#die-1{
+   width: 80px;
+}
+
+#die-2{
+   width: 80px;
+}
