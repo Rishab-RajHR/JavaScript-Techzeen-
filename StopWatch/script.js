@@ -12,6 +12,7 @@ function stopwatch(){
            hours++;
        }
     }
+    displayTime.innerHTML = hours +":"+ minutes +":"+ seconds;
 }
 
 function watchStart(){
