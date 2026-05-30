@@ -1,6 +1,6 @@
 const accessKey = "LJJFgx2C-G8tv_HsjGR6TJ31MfbzKCnpS4m_GCBBj1s";
 
-const searchBtn = document.getElementById("search-btn");
+const searchForm = document.getElementById("search-btn");
 const searchBox = document.getElementById("search-box");
 const searchResult = document.getElementById("search-result");
 const searchMoreBtn = document.getElementById("show-more-btn");
