@@ -39,3 +39,14 @@
     padding-left: 60px;
     box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
 }
+
+.details h1{
+    color: #333;
+    font-size: 35px;
+}
+
+.details h2{
+    color: #555;
+    font-size: 30px;
+    font-weight: 600;
+}
