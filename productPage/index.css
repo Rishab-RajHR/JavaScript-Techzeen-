@@ -4,3 +4,18 @@
    font-family: 'Poppins', sans-serif;
    box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+    min-height: 100ch;
+    background: #d0eaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+}
