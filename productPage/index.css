@@ -182,3 +182,7 @@ form button{
     margin: 10px;
     cursor: pointer;
 }
+
+.btn.active{
+     background: #553ff0;
+}
