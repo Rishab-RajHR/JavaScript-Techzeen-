@@ -1,12 +1,13 @@
-var imgBox = document.querySelector(".img-box");
+var ImgBox = document.querySelector(".img-box");
 var imgWrap = document.querySelector(".img-wrap");
 var originalImg = document.getElementById("originalImg");
+var line = document.getElementById("line");
 
 originalImg.style.width = ImgBox.offsetWidth + "px";
 
-var leftSpace = imgBox.offsetLeft;
+var leftSpace = ImgBox.offsetLeft;
 
-imgBox.onmousemove = function(e){
+ImgBox.onmousemove = function(e){
     var boxWidth = (e.pageX - leftSpace) + "px";
     imgWrap.style.width = boxWidth;
 }
