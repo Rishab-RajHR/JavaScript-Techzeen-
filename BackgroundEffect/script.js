@@ -2,7 +2,7 @@ var imgBox = document.querySelector(".img-box");
 var imgWrap = document.querySelector(".img-wrap");
 var originalImg = document.getElementById("originalImg");
 
-originalImg.style.width = ImgBox.offsetWidth;
+originalImg.style.width = ImgBox.offsetWidth + "px";
 
 var leftSpace = imgBox.offsetLeft;
 
