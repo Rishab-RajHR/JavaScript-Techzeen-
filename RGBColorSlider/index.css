@@ -19,3 +19,20 @@ body{
     display: grid;
     justify-items: center;
 }
+
+.wrapper{
+    width: 100%;
+    text-align: center;
+}
+
+input[type="range"]{
+    display: inline-blockl;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+span{
+   display: inline-block;
+   text-align: center;
+}
