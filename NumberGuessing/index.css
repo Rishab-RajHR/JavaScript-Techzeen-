@@ -22,4 +22,10 @@ body{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
+    background-color: #ffffff;
+    padding: 50px 10px;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    font-family: 'Poppins',sans-serif;
 }
