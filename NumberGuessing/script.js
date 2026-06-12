@@ -17,10 +17,11 @@ function play(){
 
         if(user_guess < answer){
             msg1.textContent = "Your guess is too low.";
-            msg2.textContent = "No";
+            msg2.textContent = "No. of guesses: " + no_of_guesses;
+            msg3.textContent = "Guessed numbers are: " + guessed_nums;
         }
         else if(user_guess > answer){
-            
+
         }
     }
 }
