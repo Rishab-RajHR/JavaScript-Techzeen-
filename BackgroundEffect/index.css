@@ -26,6 +26,7 @@ body{
     background-image; url(images/background.png);
     overflow: hidden;
     position: relative;
+   backdrop: filter;
 }
 
 .img-wrap{
