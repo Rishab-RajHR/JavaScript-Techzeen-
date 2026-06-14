@@ -25,3 +25,20 @@ body{
     top: 50%;
     left: 50%;
 }
+
+.row{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 40px;
+}
+
+input[type="range"]{
+    width: 70%;
+    height: 3.5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    outline: none;
+}
