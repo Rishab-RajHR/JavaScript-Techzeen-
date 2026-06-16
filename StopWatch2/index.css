@@ -17,3 +17,15 @@
     padding: 60px 0;
     border-radius: 10px;
 }
+
+.timerDisplay{
+    position: relative;
+    width: 110%;
+    background: linear-gradient(
+      -135 deg, #0048ce, #008bfd
+    );
+    left: -5%;
+    padding: 40px 0;
+    font-family: 'Roboto mono',monospace;
+    color: #ffffff;
+}
