@@ -5,6 +5,14 @@ document.getElementById('startTimer').addEventListener('click', ()=>{
     int = setInterval(displayTimer,10);
 });
 
+document.getElementById('pauseTimer').addEventListener('click', ()=>{
+    clearInterval(int);
+});
+
+document.getElementById('pauseTimer').addEventListener('click', ()=>{
+    clearInterval(int);
+});
+
 function displayTimer(){
      milliseconds+=10;
      if(milliseconds == 1000){
@@ -22,5 +30,7 @@ function displayTimer(){
      let h = hours < 10 ? "0" + hours : hours;
      let m = minutes < 10 ? "0" + minutes : minutes;
      let s = seconds < 10 ? "0" + seconds : seconds;
-     let ms = milliseconds < 10 > "00" + milliseconds : milliseconds < 100 ? "0" + milliseconds : milliseconds;
+     let ms = milliseconds < 10 ? "00" + milliseconds : milliseconds < 100 ? "0" + milliseconds : milliseconds;
+
+     timerRef.innerHTML = ` ${h} : ${m} : ${s} : ${ms}`;
 }
