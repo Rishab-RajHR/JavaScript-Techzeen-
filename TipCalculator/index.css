@@ -45,7 +45,7 @@ body{
 
 .val{
    color: #44475b;
-   font-weight: 600;
+   font-weight: 500;
    font-size: 18px;
 }
 
@@ -62,4 +62,9 @@ body{
     width: 100px;
     text-align: right;
     color: #6f6df4;
+}
+
+hr{
+   border: none;
+   border-bottom: 1px sold #cdccfd;
 }
