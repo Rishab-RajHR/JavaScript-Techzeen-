@@ -85,3 +85,14 @@ section:not(:last-child){
 section:not(:first-child){
    margin-top: 40px;
 }
+
+section:last-child{
+   background-color: #cdccfd;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+section:last-child .val,
+section:last-child .lbl{
+   color: #4c4af4;
+}
