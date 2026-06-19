@@ -77,3 +77,11 @@ input[type="range"]{
 input[type="range"]:not("last-child"){
    margin-bottom: 5px;
 }
+
+section:not(:last-child){
+     margin-bottom: 40px;
+}
+
+section:not(:first-child){
+   margin-top: 40px;
+}
