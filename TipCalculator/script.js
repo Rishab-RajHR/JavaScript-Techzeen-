@@ -11,5 +11,5 @@ function calculateTip(){
      let tipPercent = document.getElementById("tip").value;
      let noOfPeople = document.getElementById("no-of-people").value;
 
-     console.log(bill, tipPercent, noOfPeople);
+     billInput.value = bill.toFixed(2);
 }
