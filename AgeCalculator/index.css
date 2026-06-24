@@ -66,4 +66,6 @@ button{
     background-color: #080808;
     border-radius: 5px;
     color: #ffffff;
+    display: grid;
+    place-items: center;
 }
