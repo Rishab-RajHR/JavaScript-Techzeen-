@@ -10,4 +10,7 @@ function ageCalculate(){
        month:inputDate.getMonth(),
        year:inputDate.getFullYear()
    }
+   let currentYear = today.getFullYear();
+   let currentMonth = today.getMonth()+1;
+   let currentDate = today.getDate();
 }
