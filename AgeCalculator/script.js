@@ -18,5 +18,6 @@ function ageCalculate(){
      birthDetails.year > currentYear || (birthDetails.month > currentMonth && birthDetails.year == currentYear) || (birthDetails.date > currentDate && birthDetails.month == currentMonth && birthDetails.year == currentYear)
    ){
       alert("Not Born Yet");
+      return;
    }
 }
