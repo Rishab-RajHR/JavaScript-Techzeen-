@@ -13,4 +13,10 @@ function ageCalculate(){
    let currentYear = today.getFullYear();
    let currentMonth = today.getMonth()+1;
    let currentDate = today.getDate();
+
+   if(
+     birthDetails.year > currentYear || (birthDetails.month > currentMonth && birthDetails.year == currentYear) || (birthDetails.date > currentDate && birthDetails.month == currentMonth && birthDetails.year == currentYear)
+   ){
+      alert("Not Born Yet");
+   }
 }
