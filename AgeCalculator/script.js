@@ -21,6 +21,7 @@ function ageCalculate(){
      birthDetails.year > currentYear || (birthDetails.month > currentMonth && birthDetails.year == currentYear) || (birthDetails.date > currentDate && birthDetails.month == currentMonth && birthDetails.year == currentYear)
    ){
       alert("Not Born Yet");
+      displayResult("-","-","-");
       return;
    }
 
@@ -53,7 +54,7 @@ function ageCalculate(){
 function displayResult(bDate,bMonth,bYear){
     document.getElementById("years").textContent = bYear;
     document.getElementById("months").textContent = bMonth;
-    document.getElementById("days").textContent = bDays;
+    document.getElementById("days").textContent = bDate;
 }
 
 
