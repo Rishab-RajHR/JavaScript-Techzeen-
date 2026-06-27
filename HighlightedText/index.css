@@ -7,5 +7,10 @@
 
 body
 {
-  
+   height: 100%;
+   background: linear-gradient(
+       to right,
+       #201d2e 50%,
+       #f6f6f6 50%
+   ) fixed;
 }
