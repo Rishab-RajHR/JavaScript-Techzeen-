@@ -38,3 +38,13 @@ body
     border-radius: 3px;
     border: 1px solid #201d2e;
 }
+
+.wrapper button{
+    width: 30%;
+    background-color: #201d2e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 3px;
+}
