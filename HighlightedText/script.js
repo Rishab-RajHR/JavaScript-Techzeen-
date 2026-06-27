@@ -7,5 +7,5 @@ function search(){
 
     let pattern = new RegExp(`${textToSearch}`,"gi");
 
-    paragraph.innerHTML = paragraph.textContent.replace(pattern, match => `<mark>${match}'</mark>`); 
+    paragraph.innerHTML = paragraph.textContent.replace(pattern, match => `<mark>${match}</mark>`); 
 }
