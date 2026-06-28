@@ -17,5 +17,11 @@ function invalid(element,otherElement){
 
 function toRgb(){
     let hexCode = hexInput.value;
-    console.log(hexInput);
+    let rgbArr = [];
+    if(/^#?[A-Fa-f0-9]{6}$/.test(hexCode)){
+        valid(hexInput);
+    }
+    else{
+       invalid(hexInput,rgbInput);
+    }
 }
