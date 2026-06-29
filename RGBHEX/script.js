@@ -26,6 +26,7 @@ function toRgb(){
              console.log(rgbArr);
         }
         rgbInput.value = "rgb(" + rgbArr + ")";
+        document.body.style.backgroundColor = "rgb(" + rgbArr+ ")";
     }
     else{
        invalid(hexInput,rgbInput);
