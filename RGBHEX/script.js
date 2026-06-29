@@ -20,6 +20,8 @@ function toRgb(){
     let rgbArr = [];
     if(/^#?[A-Fa-f0-9]{6}$/.test(hexCode)){
         valid(hexInput);
+        hexCode = hexCode.split("#")[1] | hexCode;
+        console.log(hexCode);
     }
     else{
        invalid(hexInput,rgbInput);
