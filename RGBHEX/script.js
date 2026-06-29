@@ -32,3 +32,9 @@ function toRgb(){
        invalid(hexInput,rgbInput);
     }
 }
+
+function toHex(){
+      let rgbCode = rgbInput.value;
+      let rgbRegex1 = /^rgb\([0-9]{1,3},[0-9]{1,3},[0-9]{1,3}\)$/;
+      let rgb
+}
