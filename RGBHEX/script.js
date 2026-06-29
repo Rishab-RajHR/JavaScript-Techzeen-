@@ -36,5 +36,10 @@ function toRgb(){
 function toHex(){
       let rgbCode = rgbInput.value;
       let rgbRegex1 = /^rgb\([0-9]{1,3},[0-9]{1,3},[0-9]{1,3}\)$/;
-      let rgb
+      let rgbRegex2 = /^[0-9]{1,3},[0-9]{1,3},[0-9]{1,3}$/;
+      let hex = "#";
+      let(rgbRegex1.test(rgbCode) || rgbRegex2.test(rgbCode)){
+          rgbCode = rgbCode.replace(/[rgb()]+/g,"") || rgbCode;
+          rgbCode = rgbCode.split(",");
+      }
 }
