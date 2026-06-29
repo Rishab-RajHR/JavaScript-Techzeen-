@@ -51,6 +51,7 @@ function toHex(){
                  hex += value.length == 1 ? "0"+value : value;
               });
               hexInput.value = hex;
+              document.body.style.backgroundColor = hex;
           }
           else{
               invalid(rgbInput,hexInput);
