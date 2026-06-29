@@ -38,8 +38,20 @@ function toHex(){
       let rgbRegex1 = /^rgb\([0-9]{1,3},[0-9]{1,3},[0-9]{1,3}\)$/;
       let rgbRegex2 = /^[0-9]{1,3},[0-9]{1,3},[0-9]{1,3}$/;
       let hex = "#";
-      let(rgbRegex1.test(rgbCode) || rgbRegex2.test(rgbCode)){
+      if(rgbRegex1.test(rgbCode) || rgbRegex2.test(rgbCode)){
           rgbCode = rgbCode.replace(/[rgb()]+/g,"") || rgbCode;
           rgbCode = rgbCode.split(",");
+          let condition = rgbCode.every((value) => {
+              return parseInt(value) <= 255;
+          });
+          if(condition){
+              valid(rgbInput);
+          }
+          else{
+              invalid(rgbInput,hexInput);
+          }
+      }
+      else{
+         invalid(rgbInput.hexInput);
       }
 }
