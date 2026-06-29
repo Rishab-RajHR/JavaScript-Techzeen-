@@ -46,12 +46,17 @@ function toHex(){
           });
           if(condition){
               valid(rgbInput);
+              rgbCode.forEach(value => {
+                 value = parseInt(value).toString(16);
+                 hex += value.length == 1 ? "0"+value : value;
+              });
+              hexInput.value = hex;
           }
           else{
               invalid(rgbInput,hexInput);
           }
       }
       else{
-         invalid(rgbInput.hexInput);
+         invalid(rgbInput,hexInput);
       }
 }
