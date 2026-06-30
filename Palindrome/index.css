@@ -40,3 +40,14 @@ input{
 input:focus{
     border-bottom: 2px solid #b156fe;
 }
+
+button{
+    width: 25%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #b156fe;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 400;
+}
