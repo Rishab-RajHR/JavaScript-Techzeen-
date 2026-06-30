@@ -26,6 +26,7 @@ body
 
 .container *{
     font-family: "DM Sans", sans-serif;
+    outline: none;
 }
 
 input{
@@ -34,4 +35,8 @@ input{
     border-bottom: 2px solid #d5d5d5;
     padding: 10px 5px;
     font-weight: 400;
+}
+
+input:focus{
+    border-bottom: 2px solid #b156fe;
 }
