@@ -8,4 +8,12 @@ function checkPalindrome(str){
     let len = txt_new.length;
     let halfLen = Math.floor( len / 2);
     let result = document.getElementById("result");
+    let i;
+
+    for(i=0; i<halfLen; i++){
+       if(txt_new[i] !== txt_new[len-1-i]){
+          result.textContent = "Nope! Not a Palindrome";
+          return;
+       }
+    }
 }
