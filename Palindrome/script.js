@@ -15,5 +15,6 @@ function checkPalindrome(str){
           result.textContent = "Nope! Not a Palindrome";
           return;
        }
+       result.textContent = "Yes! It'a palindrome";
     }
 }
