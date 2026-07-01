@@ -4,6 +4,6 @@ document.getElementById("btn").addEventListener("click", function(){
 });
 
 function checkPalindrome(str){
-    let txt_new = txt.replace(/[^a-zA-Z0-9]/g, '');
+    let txt_new = txt.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
     console.log(txt,txt_new);
 }
