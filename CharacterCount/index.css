@@ -31,3 +31,10 @@ textarea{
      color: #a8b2d1;
      outline: none;
 }
+
+p
+{
+   color: #e5e5d5;
+   text-align: right;
+   margin-top: 20px;
+}
