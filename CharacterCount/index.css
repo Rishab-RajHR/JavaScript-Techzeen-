@@ -28,4 +28,6 @@ textarea{
      line-height: 30px;
      padding: 15px;
      border-radius: 3px;
+     color: #a8b2d1;
+     outline: none;
 }
