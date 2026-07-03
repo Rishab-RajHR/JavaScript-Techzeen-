@@ -78,6 +78,14 @@ input[type="range"]::-webkit-slider-thumb{
      background-color: #3264fe;
      cursor: pointer;
      border-radius: 10px;
-     pointer-events: auto;
      margin-top: -9px;
+}
+
+input[type="range"]::-moz-range-thumb{
+   -webkit-appearance: none;
+   height: 1.7em;
+   width: 1.7em;
+   cursor: pointer;
+   border-radius: 50%;
+   background-color: #3264fe;
 }
