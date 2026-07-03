@@ -36,4 +36,11 @@ input[type="range"]{
    -moz-appearance: none;
    appearance: none;
    width: 100%;
+   outline: none;
+   position: absolute;
+   margin: auto;
+   top: 0;
+   bottom: 0;
+   background-color: transparent;
+   pointer-events: none;
 }
