@@ -14,3 +14,11 @@ body
     display: grid;
     background-color: #3264fe;
 }
+
+.wrapper
+{
+   position: relative;
+   width: 95vmin;
+   background-color: #ffffff;
+   padding: 50px 40px 20px 40px;
+}
