@@ -118,3 +118,17 @@ input[type="range"]:active::-webkit-slider-thumb{
     font-size: 25px;
     color: #ffffff;
 }
+
+.values:before{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 15px solid #264fe;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    margin: auto;
+    bottom: -14px;
+    left: 0;
+    right: 0;
+}
