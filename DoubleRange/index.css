@@ -89,3 +89,12 @@ input[type="range"]::-moz-range-thumb{
    border-radius: 50%;
    background-color: #3264fe;
 }
+
+input[type="range"]::-ms-thumb{
+    appearance: none;
+    height: 1.7em;
+    width: 1.7em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #3264fe;
+}
