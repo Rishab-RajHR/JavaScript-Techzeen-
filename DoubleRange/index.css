@@ -99,4 +99,5 @@ input[type="range"]::-ms-thumb{
     cursor: pointer;
     border-radius: 50%;
     background-color: #3264fe;
+     pointer-events: auto;
 }
