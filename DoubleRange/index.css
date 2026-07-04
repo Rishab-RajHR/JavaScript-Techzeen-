@@ -105,3 +105,16 @@ input[type="range"]:active::-webkit-slider-thumb{
      background-color: #ffffff;
      border: 3px solid #3264fe;
 }
+
+.values{
+    background-color: #3244fe;
+    width: 32%;
+    position: relative;
+    margin: auto;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+}
