@@ -9,3 +9,9 @@ function slideOne(){
      sliderOne.value = parseInt(sliderTwo.value) - minGap;
    }
 }
+
+function slideTwo(){
+  if(parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap){
+     sliderTwo.value = parseInt(sliderOne.value) + minGap;
+  }
+}
