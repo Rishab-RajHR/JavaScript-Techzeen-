@@ -26,3 +26,9 @@ function slideTwo(){
   displayValTwo.textContent = sliderTwo.value;
   fillColor();
 }
+
+function fillColor(){
+    percent1 = (sliderOne.value / sliderMaxValue) * 100;
+    percent2 = (sliderTwo.value / sliderMaxValue) * 100;
+    console.log(percent1,percent2);
+}
