@@ -30,7 +30,11 @@ body
   font-family: "Rubik",sans-serif;
 }
 
-.colors
+.colors{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
 input[type="color"]{
    -webkit-appearance: none;
@@ -38,4 +42,9 @@ input[type="color"]{
    width: 100px;
    height: 45px;
    cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch{
+    border-radius: 20px;
+    border: none;
 }
