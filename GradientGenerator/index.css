@@ -25,3 +25,17 @@ body
    left: 50%;
    border-radius: 10px;
 }
+
+.container *:not(i){
+  font-family: "Rubik",sans-serif;
+}
+
+.colors
+
+input[type="color"]{
+   -webkit-appearance: none;
+   background-color: transparent;
+   width: 100px;
+   height: 45px;
+   cursor: pointer;
+}
