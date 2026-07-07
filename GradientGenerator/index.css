@@ -61,4 +61,7 @@ input[type="color"]::-webkit-color-swatch{
    width: 35px;
    background-color: transparent;
    border: 2px solid #d5d5dc;
+   color: #d5d5dc;
+   border-radius: 5px;
+   cursor: pointer;
 }
