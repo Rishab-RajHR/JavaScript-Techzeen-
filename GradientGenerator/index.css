@@ -72,4 +72,6 @@ input[type="color"]::-webkit-color-swatch{
 
 .buttons .active{
     border: none;
+    background-color: #4a6ee0;
+    color: #ffffff;
 }
