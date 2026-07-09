@@ -18,3 +18,9 @@ function generateCode(){
 
     document.getElementsByTagName("BODY")[0].computedStyleMap.backgroundImage = `linear-gradient(${currentDirection}, ${colorOne.value}, ${colorTwo.value} )`;
 }
+
+function copyText(){
+      outputCode.select();
+      document.execCommand('copy');
+      alert('Gradient Copied!');
+}
