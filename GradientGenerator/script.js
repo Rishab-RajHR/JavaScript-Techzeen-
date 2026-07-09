@@ -24,3 +24,5 @@ function copyText(){
       document.execCommand('copy');
       alert('Gradient Copied!');
 }
+
+generateCode();
