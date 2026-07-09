@@ -15,4 +15,6 @@ function setDirection(value,_this){
 
 function generateCode(){
     outputCode.value = `background-image: linear-gradient(${currentDirection}, ${colorOne.value}, ${colorTwo.value});`
+
+    document.getElementsByTagName("BODY")[0].computedStyleMap.backgroundImage = `linear-gradient(${currentDirection}, ${colorOne.value}, ${colorTwo.value} )`;
 }
