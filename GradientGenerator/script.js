@@ -10,4 +10,5 @@ function setDirection(value,_this){
     }
     _this.classList.add('active');
     currentDirection = value;
+    console.log(currentDirection);
 }
