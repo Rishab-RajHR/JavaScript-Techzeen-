@@ -27,3 +27,7 @@ body{
     box-shadow: 15px 15px 35px rgba(0,0,0,0.2) inset 0 0 30px rgba(0,0,0,0.4);
 
 }
+
+img{
+   position: relative;
+}
