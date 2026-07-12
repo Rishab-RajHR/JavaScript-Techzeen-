@@ -16,5 +16,13 @@ for(let i=0; i<toggles.length; i++){
             icons[i].classList.remove('fa-minus');
             icons[i].classList.add('fa-plus');
         }
+        for(let j=0; j<contentDiv.length; j++){
+            if(j!==1){
+               contentDiv[j].style.height = "0px";
+               toggles[j].style.color = "#111130";
+               icons[j].classList.remove('fa-minus');
+               icons[j].classList.add('fa-plus');
+            }
+        }
     });
 }
