@@ -4,9 +4,11 @@ let icons = document.getElementsByClassName('icon');
 
 for(let i=0; i<toggles.length; i++){
     toggles[i].addEventListener('click', ()=>{
-        console.log(contentDiv[i].style.height,contentDiv[i].scrollHeight)
         if(parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight){
             contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
+            toggles[i].style.color = "#0084e9";
+            icons[i].classList.remove('fa-plus');
+            icons[i].classList.add('fa-minus');
         }
     });
 }
