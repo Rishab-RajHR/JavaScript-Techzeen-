@@ -19,3 +19,12 @@ body{
    left: 50%;
    border-radius: 8px;
 }
+
+.output{
+     background-color: #eef3f8;
+     width: 100%;
+     min-height: 250px;
+     padding: 20px 0;
+     overflow: hidden;
+     border-radius: 5px;
+}
