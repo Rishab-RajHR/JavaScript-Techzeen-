@@ -7,3 +7,15 @@
 body{
   background-color: #008dff;
 }
+
+.wrapper{
+   background-color: #ffffff;
+   width: 45%;
+   min-widthZ: 550px;
+   padding: 30px;
+   position: 30px;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left: 50%;
+   border-radius: 8px;
+}
