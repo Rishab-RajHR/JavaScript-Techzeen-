@@ -27,4 +27,16 @@ body{
      padding: 20px 0;
      overflow: hidden;
      border-radius: 5px;
+     position: relative;
+     display: grid;
+     place-items: center;
+}
+
+#blob{
+     height: 300px;
+     width: 300px;
+     background: linear-gradient(
+         #44a2f0,
+         #025eaa
+     ) 
 }
