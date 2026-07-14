@@ -64,3 +64,9 @@ input[type="number"]{
      margin-top: 5px;
      border: 1px solid #a0a0b0;
 }
+
+input[type="number"]:focus{
+     background-color: #f1f5fa;
+     border-color: #025eaa;
+     color: #025eaa;
+}
