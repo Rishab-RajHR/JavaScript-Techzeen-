@@ -88,3 +88,14 @@ input[type="text"]{
      background-color: #f1eff9;
      border-radius: 3px;
 }
+
+button{
+    width: 12%;
+    margin-left: 4%;
+    padding: 10px 0;
+    background-color: #0075ff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #ffffff;
+}
