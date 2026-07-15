@@ -16,6 +16,6 @@ function createBlob(){
      let radiusThree = sliders[2].value;
      let radiusFour = sliders[3].value;
 
-     console.log(radiusOne, radiusTwo, radiusThree
-        , radiusFour);
+     let blobHeight = inputs[0].value;
+     let blobWidth = inputs[1].value;
 }
