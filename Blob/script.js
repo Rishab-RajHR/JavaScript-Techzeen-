@@ -6,3 +6,4 @@ sliders.forEach(function(slider){
 });
 
 let inputs = document.querySelectorAll("input[type='number']");
+console.log(inputs);
