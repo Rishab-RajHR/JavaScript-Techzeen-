@@ -18,4 +18,6 @@ function createBlob(){
 
      let blobHeight = inputs[0].value;
      let blobWidth = inputs[1].value;
+
+     let borderRadius = `${radiusOne}% ${100 - radiusOne}% ${100 - radiusThree}% ${radiusThree}% / ${radiusFour}% ${radiusTwo}% ${100 - radiusTwo}% ${100 - radiusFour}%`;
 }
