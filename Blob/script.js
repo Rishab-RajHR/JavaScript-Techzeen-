@@ -9,3 +9,10 @@ let inputs = document.querySelectorAll("input[type='number']");
 inputs.forEach(function(inp){
     inp.addEventListener("change",createBlob);
 });
+
+function createBlob(){
+     let radiusOne = sliders[0].value;
+     let radiusTwo = sliders[1].value;
+     let radiusThree = sliders[2].value;
+     let radiusFour = sliders[3].value;
+}
