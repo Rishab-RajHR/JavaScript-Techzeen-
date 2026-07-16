@@ -26,4 +26,10 @@ function createBlob(){
      outputCode.value = `border-radius: ${borderRadius}`;
 }
 
+document.getElementById("copy").addEventListener("click", function(){
+     outputCode.select();
+     document.execCommand('copy');
+     alert('Code Copied');
+});
+
 createBlob();
