@@ -7,6 +7,12 @@ let time = 60;
 let timer = "";
 let mistakes = 0;
 
+// Display random quotes
+const renderNewQuote = async () => {
+    // Fetch contents from url
+    const response = await fetch(quoteApiUrl);
+}
+
 window.onload = () => {
     userInput.value = "";
     document.getElementById("start-test").style.display = "block";
