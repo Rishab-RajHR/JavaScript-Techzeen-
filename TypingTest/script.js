@@ -1,0 +1,5 @@
+// Random Quotes Api URl
+const quoteApiUrl = "https://api.quotable.io/random?minLength=80&maxLength=100";
+const quoteSection = document.getElementById("quote");
+const userInput = document.getElementById("quote-input");
+console.log(quoteSection, userInput);
