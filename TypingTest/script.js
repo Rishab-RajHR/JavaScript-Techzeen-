@@ -16,6 +16,9 @@ const renderNewQuote = async () => {
     let data = await response.json();
 
     // Access quote
+    quote = data.content;
+
+    console.log(data);
 }
 
 window.onload = () => {
