@@ -23,7 +23,10 @@ const renderNewQuote = async () => {
         //   wrap the characters in a span tag
         return "<span class='quote-chars'>" + value + "</span>";
     });
-}
+
+    // Join Array for displaying
+    quoteSection.innerHTML += arr.join("");
+};
 
 window.onload = () => {
     userInput.value = "";
