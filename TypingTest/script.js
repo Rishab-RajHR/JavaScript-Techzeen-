@@ -26,6 +26,7 @@ const renderNewQuote = async () => {
 
     // Join Array for displaying
     quoteSection.innerHTML += arr.join("");
+    console.log(arr);
 };
 
 window.onload = () => {
