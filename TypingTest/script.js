@@ -26,7 +26,15 @@ const renderNewQuote = async () => {
 
     // Join Array for displaying
     quoteSection.innerHTML += arr.join("");
-    console.log(arr);
+};
+
+// Start Test
+const startTest = () => {
+     mistakes = 0;
+     timer = "";
+     userInput.disabled = false;
+     document.getElementById("start-test").style.display = "none";
+     document.getElementById("stop-test").style.display = "block";
 };
 
 window.onload = () => {
