@@ -11,6 +11,11 @@ let mistakes = 0;
 const renderNewQuote = async () => {
     // Fetch contents from url
     const response = await fetch(quoteApiUrl);
+
+    // Store response
+    let data = await response.json();
+
+    // Access quote
 }
 
 window.onload = () => {
