@@ -67,8 +67,10 @@ userInput.addEventListener("input", () => {
             // Checks if we already have added fail class
             if(!char.classList.contains("fail")){
                  // increment and display mistakes
-                 mistakes
+                 mistakes += 1;
+                 char.classList.add("fail");
             }
+            document.getElementById("mistakes").innerText = mistakes;
         }
     });
 });
