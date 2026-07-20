@@ -72,6 +72,11 @@ userInput.addEventListener("input", () => {
             }
             document.getElementById("mistakes").innerText = mistakes;
         }
+        // Returns true if all the characters are entered correctly
+        let check = quoteChars.every(element=>{
+             return element.classList.contains("success");
+        });
+        // End test if all the characters are correct
     });
 });
 
