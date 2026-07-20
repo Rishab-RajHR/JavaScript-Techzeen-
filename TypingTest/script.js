@@ -38,6 +38,10 @@ const startTest = () => {
 };
 
 // Logic for comparing input words with quote
+userInput.addEventListener("input", () => {
+     let quoteChars = document.querySelectorAll(".quote-chars");
+     console.log(quoteChars);
+})
 
 window.onload = () => {
     userInput.value = "";
