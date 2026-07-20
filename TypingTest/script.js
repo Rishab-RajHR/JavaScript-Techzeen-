@@ -52,6 +52,14 @@ userInput.addEventListener("input", () => {
         if (char.innerText == userInputChars[index]) {
               char.classList.add("success");
         } 
+        // If user hasn't entered anything or backspaced
+        else if(userInputChars[index] == null){
+            // Remove class if any
+            if(char.classList.contains("success")){
+                 char.classList.remove("success");
+            }
+        }
+
     });
 });
 
