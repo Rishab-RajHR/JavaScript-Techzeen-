@@ -42,7 +42,15 @@ userInput.addEventListener("input", () => {
      let quoteChars = document.querySelectorAll(".quote-chars");
      // Create an array from received span tags
      quoteChars = Array.from(quoteChars);
-})
+
+    // Array of user input characters
+    let userInputChars = userInput.value.split("");
+
+    // Loop through each character in quote
+    quoteChars.forEach((char,index) => {
+        // Check if char() 
+    });
+});
 
 window.onload = () => {
     userInput.value = "";
