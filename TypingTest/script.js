@@ -58,8 +58,18 @@ userInput.addEventListener("input", () => {
             if(char.classList.contains("success")){
                  char.classList.remove("success");
             }
+            else{
+                 char.classList.remove("fail");
+            }
         }
-
+        // If user enter wrong character
+        else{
+            // Checks if we already have added fail class
+            if(!char.classList.contains("fail")){
+                 // increment and display mistakes
+                 mistakes
+            }
+        }
     });
 });
 
