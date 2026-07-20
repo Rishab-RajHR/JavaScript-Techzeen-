@@ -37,6 +37,8 @@ const startTest = () => {
      document.getElementById("stop-test").style.display = "block";
 };
 
+// Logic for comparing input words with quote
+
 window.onload = () => {
     userInput.value = "";
     document.getElementById("start-test").style.display = "block";
