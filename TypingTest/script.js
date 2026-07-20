@@ -48,7 +48,10 @@ userInput.addEventListener("input", () => {
 
     // Loop through each character in quote
     quoteChars.forEach((char,index) => {
-        // Check if char() 
+        // Check if char(quote character) = userInputChars[index](input character)'
+        if (char.innerText == userInputChars[index]) {
+              char.classList.add("success");
+        } 
     });
 });
 
