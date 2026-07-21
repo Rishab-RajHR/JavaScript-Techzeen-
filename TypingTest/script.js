@@ -84,6 +84,16 @@ userInput.addEventListener("input", () => {
     });
 });
 
+// Update Timer on screen
+function updateTimer() {
+    if(time == 0) {
+        // End Test if timer reaches 0
+        displayResult();
+    } else {
+        document.getElementById("timer").innerText = --time + "s";
+    }
+}
+
 // Sets Timer
 const timeReduce = () => {
     time = 60;
