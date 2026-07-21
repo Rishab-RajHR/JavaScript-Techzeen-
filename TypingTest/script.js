@@ -33,6 +33,7 @@ const startTest = () => {
      mistakes = 0;
      timer = "";
      userInput.disabled = false;
+     timeReduce();
      document.getElementById("start-test").style.display = "none";
      document.getElementById("stop-test").style.display = "block";
 };
@@ -82,6 +83,12 @@ userInput.addEventListener("input", () => {
         }
     });
 });
+
+// Sets Timer
+const timeReduce = () => {
+    time = 60;
+    timer = setInterval(updateTimer, 1000);
+};
 
 // End Test
 const displayResult = () => {
