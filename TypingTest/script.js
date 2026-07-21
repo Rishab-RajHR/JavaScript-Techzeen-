@@ -77,6 +77,9 @@ userInput.addEventListener("input", () => {
              return element.classList.contains("success");
         });
         // End test if all the characters are correct
+        if (check) {
+             console.log("ok");
+        }
     });
 });
 
