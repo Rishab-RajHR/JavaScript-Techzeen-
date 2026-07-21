@@ -111,8 +111,9 @@ const displayResult = () => {
      if (time != 0) {
          timeTaken = (60 - time) / 100;
      }
-     document.getElementById("wpm").innerText = (userInput.value.length / 5 / timeTaken);
-}
+     document.getElementById("wpm").innerText = (userInput.value.length / 5 / timeTaken).toFixed(2) + " wpm";
+     document.getElementById("accuracy").innerText = Math.round(((userInput.value.length - mistakes) / userInput.value.length) * 100 ) + "%";
+};
 
 window.onload = () => {
     userInput.value = "";
