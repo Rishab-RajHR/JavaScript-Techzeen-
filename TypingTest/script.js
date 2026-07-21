@@ -104,6 +104,14 @@ const timeReduce = () => {
 const displayResult = () => {
      // display result div
      document.querySelector(".result").style.display = "block";
+     clearInterval(timer);
+     document.getElementById("stop-test").style.display = "none";
+     userInput.disabled = true;
+     let timeTaken = 1;
+     if (time != 0) {
+         timeTaken = (60 - time) / 100;
+     }
+     document.getElementById("wpm").innerText = (userInput.value.length / 5 / timeTaken);
 }
 
 window.onload = () => {
