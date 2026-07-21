@@ -83,6 +83,12 @@ userInput.addEventListener("input", () => {
     });
 });
 
+// End Test
+const displayResult = () => {
+     // display result div
+     document.querySelector(".result").style.display = "block";
+}
+
 window.onload = () => {
     userInput.value = "";
     document.getElementById("start-test").style.display = "block";
