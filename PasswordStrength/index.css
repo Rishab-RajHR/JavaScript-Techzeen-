@@ -31,7 +31,6 @@ body {
    width: 300px;
    position: relative;
    margin: auto;
-   border: 1px solid orange;
 }
 
 input {
@@ -43,4 +42,11 @@ input {
     border: none;
     outline: none;
     border-radius: 5px 5px 0 0;
+}
+
+#toggle {
+   position: absolute;
+   top: 17px;
+   right: 15px;
+   color: #808080;
 }
