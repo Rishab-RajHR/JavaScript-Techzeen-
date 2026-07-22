@@ -50,3 +50,10 @@ input {
    right: 15px;
    color: #808080;
 }
+
+#strength-bar {
+   background-color: #dcdcdc;
+   height: 10px;
+   position: relative;
+   border-radius: 0 0 5px 5px;
+}
