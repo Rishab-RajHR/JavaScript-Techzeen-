@@ -1,3 +1,11 @@
+let parameters = {
+     count : false,
+     letters : false,
+     numbers: false,
+     special: false
+}
+
+
 function toggle() {
     let password = document.getElementById("password");
     let eye = document.getElementById("toggle");
