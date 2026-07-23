@@ -5,6 +5,10 @@ let parameters = {
      special: false
 }
 
+let strengthBar = document.getElementById("strength-bar");
+let msg = document.getElementById("msg");
+
+
 
 function toggle() {
     let password = document.getElementById("password");
