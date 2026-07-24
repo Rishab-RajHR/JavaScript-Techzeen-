@@ -26,6 +26,16 @@ function strengthChecker(){
          span.classList.add("strength");
          strengthBar.appendChild(span);
       }
+
+      let spanRef = document.getElementsByClassName("strength");
+      for(let i=0; i<spanRef.length; i++) {
+         switch(spanRef.length - 1) {
+              case 0 :
+                   spanRef[i].style.background = "#ff3e36";
+                   msg.textContent = "Your password is ver weak";
+                   break;
+         }
+      }
 }
 
 function toggle() {
