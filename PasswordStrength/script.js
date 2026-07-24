@@ -34,6 +34,12 @@ function strengthChecker(){
                    spanRef[i].style.background = "#ff3e36";
                    msg.textContent = "Your password is ver weak";
                    break;
+              case 1 :
+                  spanRef[i].style.background = "#ff691f";
+                  msg.textContent = "Your Password is weak";
+              case 2:
+                  spanRef[i].style.background = "#ffda36";
+                  msg.textContent = "Your Password is good";
          }
       }
 }
