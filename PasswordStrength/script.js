@@ -19,6 +19,13 @@ function strengthChecker(){
       let barLength = Object.values(parameters).filter(value=>value);
 
       console.log(Object.values(parameters), barLength);
+
+      strengthBar.innerHTML = "";
+      for(let i in barLength) {
+         let span = document.createElement("span");
+         span.classList.add("strength");
+         strengthBar.appendChild(span);
+      }
 }
 
 function toggle() {
