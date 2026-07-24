@@ -16,7 +16,9 @@ function strengthChecker(){
       parameters.special = (/[!\"$%&/()=?@-`\\.\`;:+=^*_-]+/.test(password))?true:false;
       parameters.count = (password.length > 7)?true:false;
 
-      console.log(Objects.value(parameters));
+      let barLength = Object.values(parameters).filter(value=>value);
+
+      console.log(Object.values(parameters), barLength);
 }
 
 function toggle() {
