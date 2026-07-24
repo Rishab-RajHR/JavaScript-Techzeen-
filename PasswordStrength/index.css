@@ -55,6 +55,14 @@ input {
    color: #808080;
 }
 
+.strength {
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    background-color: black;
+}
+
 #strength-bar {
    background-color: #dcdcdc;
    height: 10px;
