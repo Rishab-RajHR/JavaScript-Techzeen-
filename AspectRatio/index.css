@@ -32,3 +32,17 @@ h2 {
 h2 span {
     color: #895cf3;
 }
+
+.wrapper-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 70px 0;
+    font-size: 30px;
+}
+
+input {
+    padding: 15px 10px;
+    border: 1px solid #bbc0c5;
+    border-radius: 5px;
+}
