@@ -4,7 +4,8 @@ let width = document.getElementById("width");
 let height = document.getElementById("height");
 
 let calculateWidth = () => {
-    let aspectRatio = ratioWidth
+    let aspectRatio = ratioWidth.value / ratioHeight.value;
+    console.log(aspectRatio);
 }
 
 height.addEventListener("input", calculateWidth);
