@@ -49,6 +49,16 @@ input {
     outline: none;
 }
 
+input:focus {
+     border: 2px solid #895cf3;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
 .box{
     display: flex;
     justify-content: space-between;
