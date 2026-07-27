@@ -48,3 +48,9 @@ input {
     color; #170444;
     outline: none;
 }
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
