@@ -38,4 +38,22 @@ body {
     position: absolute;
     height: 20px;
     width: 110%;
+    background-color: #afddfa;
+    left: -5%;
+    border-radius: 20px;
+}
+
+.base {
+   height: 40px;
+   width: 20px;
+   background-color: #afddfa;
+   position: absolute;
+   margin: auto;
+   left: 0;
+   right: 0;
+   top: 90px;
+}
+
+base:after {
+  
 }
