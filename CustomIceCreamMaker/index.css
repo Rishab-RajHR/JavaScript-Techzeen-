@@ -64,3 +64,19 @@ body {
    top: 30px;
    border-radius: 50px 50px 0 0;
 }
+
+.scoop1 {
+    height: 130px;
+    width: 130px;
+    background-color: #f45c96;
+    border-radius: 50%;
+    position: absolute;
+    background-size: 40px 150px;
+    background-image: radial-gradient(
+      circle at 20px 12px,
+      #f8bd3d 25px,
+      transparent 25px
+    );
+    top: 20px;
+    left: 108px;
+}
