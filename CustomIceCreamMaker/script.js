@@ -35,3 +35,8 @@ btnScoop3.addEventListener("click", () => {
     scoop3.style.backgroundColor = colors[counter3];
     counter3 = setCounterValue(counter3);
 });
+
+btnTopping1.addEventListener("click", () => {
+    scoop1.style.backgroundColor = `radial-gradient(circle at 20px 18px, ${colors[counter4]} 25px, transparent 25px)`;
+    counter4 = setCounterValue(counter4);
+});
