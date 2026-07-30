@@ -17,6 +17,10 @@ let counter4 = 0;
 let counter5 = 0;
 
 
+function setCounterValue(counter) {
+    return counter < colors.length - 1 ? counter + 1 : 0;
+}
+
 btnScoop1.addEventListener("click", () => {
     scoop1.style.backgroundColor = colors[counter1];
     counter1 = setCounterValue(counter1);
