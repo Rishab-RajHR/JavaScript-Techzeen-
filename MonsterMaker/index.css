@@ -36,3 +36,14 @@ body {
    border-bottom: 2px dashed #000000;
    padding: 20px 0 40px 0;
 }
+
+.buttons button {
+    background-color: #ffb64c;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
