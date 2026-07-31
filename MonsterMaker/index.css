@@ -15,3 +15,14 @@
 body {
    background-color: #ffb64c;
 }
+
+.wrapper {
+   background-color: #ffffff;
+   width: 90vmin;
+   padding: 30px 0;
+   position: absolute;
+   transform: tranlstae(-50%, 50%);
+   top: 50%;
+   left: 50%;
+   border-radius: 10px;
+}
