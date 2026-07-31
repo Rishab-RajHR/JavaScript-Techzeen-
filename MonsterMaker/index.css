@@ -21,7 +21,7 @@ body {
    width: 90vmin;
    padding: 30px 0;
    position: absolute;
-   transform: tranlstae(-50%, 50%);
+   transform: tranlstae(-50%, -50%);
    top: 50%;
    left: 50%;
    border-radius: 10px;
