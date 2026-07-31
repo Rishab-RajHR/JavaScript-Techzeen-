@@ -26,3 +26,13 @@ body {
    left: 50%;
    border-radius: 10px;
 }
+
+.buttons {
+   width: 90%;
+   position: relative;
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 2px dashed #000000;
+   padding: 20px 0 40px 0;
+}
