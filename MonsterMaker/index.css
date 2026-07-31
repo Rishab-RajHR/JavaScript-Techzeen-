@@ -1,0 +1,12 @@
+:root {
+    --color-monster: #a8d530;
+    --color-tail: #ff4f51;
+    --color-horns: #ff4f51;
+}
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
