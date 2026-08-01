@@ -82,3 +82,14 @@ body {
    left: -40px;
    border-radius: 5px;
 }
+
+.monster-body:after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 30px;
+    background-color: var(--color-monster);
+    bottom: -39px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 189.5px 0 0 0 var(--color-monster);
+}
