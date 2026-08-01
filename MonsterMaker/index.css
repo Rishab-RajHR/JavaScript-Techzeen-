@@ -123,4 +123,8 @@ body {
     height: 0;
     width: 0;
     border-bottom: 20px solid var(--color-tail);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    left: 85px;
+    bottom: 39px;
 }
