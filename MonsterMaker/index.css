@@ -104,3 +104,15 @@ body {
     top: -85px;
     left: 50%;
 }
+
+.monster-tail {
+     height: 50px;
+     width: 120px;
+     border: 10px solid var(--color-tail);
+     position: absolute;
+     left: 220px;
+     top: 270px;
+     transform: rotate(-10deg);
+     border-top: none;
+     border-radius: 0 0 20px 0;
+}
