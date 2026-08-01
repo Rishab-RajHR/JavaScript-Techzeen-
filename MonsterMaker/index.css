@@ -53,11 +53,11 @@ body {
 }
 
 .monster {
+   overflow: hidden;
    position: relative;
    margin: auto;
    height: 420px;
    width: 350px;
-   border: 1px solid #000000;
 }
 
 .monster-body {
@@ -127,4 +127,9 @@ body {
     border-right: 20px solid transparent;
     left: 85px;
     bottom: 39px;
+}
+
+img {
+   position: relative;
+   left: -1.5px;
 }
