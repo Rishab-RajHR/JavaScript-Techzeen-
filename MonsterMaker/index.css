@@ -93,3 +93,14 @@ body {
     border-radius: 0 0 5px 5px;
     box-shadow: 189.5px 0 0 0 var(--color-monster);
 }
+
+.monster-horns {
+    width: 320px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 30px var(--color-horns);
+    position: absolute;
+    transform: translateX(-50%);
+    top: -85px;
+    left: 50%;
+}
