@@ -30,3 +30,8 @@ colorBtn.addEventListener("click", () => {
    counter2 = setCounter(counter2, bodyColors.length);
    docRoot.style.setProperty("--color-monster", bodyColors[counter2]);
 });
+
+colorBtn.addEventListener("click", () => {
+   counter3 = setCounter(counter3, colors.length);
+   docRoot.style.setProperty("--colors-horns", colors[counter3]);
+});
