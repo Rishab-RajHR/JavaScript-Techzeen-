@@ -17,7 +17,9 @@ let bodyColors = [
 let colors = [...bodyColors, "transparent"];
 let [counter1, counter2, counter3, counter4] = Array(4).fill(0);
 
-
+let setCounter = (counter, len) => {
+  return counter < len - 1 ? counter + 1 : 0;
+}
 
 faceBtn.addEventListener("click", () => {
     counter1 = setCounter(counter1, 6);
