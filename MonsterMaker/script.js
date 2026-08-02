@@ -23,4 +23,5 @@ let setCounter = (counter, len) => {
 
 faceBtn.addEventListener("click", () => {
     counter1 = setCounter(counter1, 6);
+    document.getElementById("face").setAttribute("src", `face-${counter1},png`);
 })
