@@ -35,3 +35,8 @@ colorBtn.addEventListener("click", () => {
    counter3 = setCounter(counter3, colors.length);
    docRoot.style.setProperty("--colors-horns", colors[counter3]);
 });
+
+tailBtn.addEventListener("click", () => {
+   counter4 = setCounter(counter4, colors.length);
+   docRoot.style.setProperty("--color-tail", colors[counter4]);
+});
