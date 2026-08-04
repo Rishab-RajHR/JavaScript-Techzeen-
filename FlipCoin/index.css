@@ -41,7 +41,8 @@ body {
    position: relative;
    margin: 50px auto;
    -webkit-transform-style: preserve-3d;
-   transform-style: preserve-3d;
+           transform-style: preserve-3d;
+   animation: spin-heads 3s forwards;
 }
 
 coin img {
