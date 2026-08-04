@@ -69,3 +69,12 @@ coin img {
       transform: rotateX(1980deg);
    }
 }
+
+@keyframes spin-heads {
+   0%{
+      transform: rotateX(0);
+   }
+   100%{
+      transform: rotateX(2160deg);
+   }
+}
