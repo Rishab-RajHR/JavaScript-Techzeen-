@@ -36,7 +36,6 @@ body {
 }
 
 .coin {
-   border: 1px solid black;
    height: 150px;
    width: 150px;
    position: relative;
@@ -56,3 +55,9 @@ coin img {
    -webkit-backface-visibility: hidden;
            backface-visibility: hidden;
 }
+
+.tails {
+    transform: rotateX(180deg);
+}
+
+@
