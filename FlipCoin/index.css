@@ -54,6 +54,7 @@ coin img {
    height: 100%;
    -webkit-backface-visibility: hidden;
            backface-visibility: hidden;
+   animate: spin-tails 3s forwards;
 }
 
 .tails {
