@@ -42,7 +42,6 @@ body {
    margin: 50px auto;
    -webkit-transform-style: preserve-3d;
            transform-style: preserve-3d;
-   animation: spin-heads 3s forwards;
 }
 
 coin img {
@@ -55,7 +54,6 @@ coin img {
    height: 100%;
    -webkit-backface-visibility: hidden;
            backface-visibility: hidden;
-   animate: spin-tails 3s forwards;
 }
 
 .tails {
@@ -78,4 +76,17 @@ coin img {
    100%{
       transform: rotateX(2160deg);
    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+   width: 120px;
+   padding: 10px 0;
+   border: 2.5px solid #424ae0;
+   border-radius: 5px;
+   cursor: pointer;
 }
