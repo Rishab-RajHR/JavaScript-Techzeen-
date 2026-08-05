@@ -19,4 +19,12 @@ flipBtn.addEventListener("click", () => {
        }, 100);
        tails++;
     }
+    setTimeout(updateStats, 3000);
+
 });
+function updateStats(){
+    document.querySelector("#heads-count");
+    textContent = `Heads; ${heads}`;
+    document.querySelector("#tails-count");
+    textContent = `Tails: ${tails}`;
+}
