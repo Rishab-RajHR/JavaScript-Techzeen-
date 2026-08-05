@@ -13,4 +13,10 @@ flipBtn.addEventListener("click", () => {
        }, 100);
        heads++;
     }
+    else{
+       setTimeout(function(){
+          coin.style.animation = "spin-tails 3s forwards";
+       }, 100);
+       tails++;
+    }
 });
