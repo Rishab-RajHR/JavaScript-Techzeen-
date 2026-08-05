@@ -6,5 +6,11 @@ let resetBtn = document.querySelector("#flip-button");
 
 flipBtn.addEventListener("click", () => {
     let i = Math.floor(Math.random() * 2);
-    console.log(i);
+    coin.style.animation = "none";
+    if(i) {
+       setTimeout(function(){
+          coin.style.animation = "spin-heads 3s forwards";
+       }, 100);
+       heads++;
+    }
 });
