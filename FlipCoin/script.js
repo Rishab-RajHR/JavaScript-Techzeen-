@@ -4,4 +4,7 @@ let coin = document.querySelector(".coin");
 let flipBtn = document.querySelector("#flip-button");
 let resetBtn = document.querySelector("#flip-button");
 
-console.log(coin, flipBtn, resetBtn);
+flipBtn.addEventListener("click", () => {
+    let i = Math.floor(Math.random() * 2);
+    console.log(i);
+});
