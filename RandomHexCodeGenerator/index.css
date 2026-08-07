@@ -66,3 +66,14 @@ input[type="text"]{
       font-weight: 600;
       cursor: pointer;
 }
+
+#gen-btn {
+      background-color: #18f98f;
+      color: #202229;
+}
+
+#copy-btn{
+     border: 3px solid #18f98f;
+     background-color: transparent;
+     color: #18f98f;
+}
