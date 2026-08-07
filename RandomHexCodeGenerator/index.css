@@ -53,3 +53,16 @@ input[type="text"]{
     color: #f5f5f5;
     text-align: center;
 }
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns button {
+      font-size: 1em;
+      padding: 0.8em 1.7em;
+      border-radius: 7px;
+      font-weight: 600;
+      cursor: pointer;
+}
