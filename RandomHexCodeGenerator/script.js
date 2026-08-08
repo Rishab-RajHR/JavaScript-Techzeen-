@@ -19,4 +19,5 @@ let genHexCode = () => {
     outputColor.style.backgroundColor = hexCode;
 }
 
+window.onload = genHexCode;
 genBtn.addEventListener("click", genHexCode);
