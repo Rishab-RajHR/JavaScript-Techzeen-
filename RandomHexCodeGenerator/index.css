@@ -67,6 +67,14 @@ input[type="text"]{
     text-align: center;
 }
 
+input[type="text"]::-moz-selection {
+    background: transparent;
+}
+
+input[type="text"]::selection{
+    background: transparent;
+}
+
 .btns{
     display: flex;
     justify-content: space-around;
