@@ -19,5 +19,14 @@ let genHexCode = () => {
     outputColor.style.backgroundColor = hexCode;
 }
 
+copyBtn.addEventListener("click", () => {
+     output.select();
+     document.execCommand("copy");
+     customAlert.style.transform = "translateX(0)";
+     setTimeout(() => {
+          customAlert.style.transform = "translateX(calc( 100% + 10px ))";
+     }, 2000);
+})
+
 window.onload = genHexCode;
 genBtn.addEventListener("click", genHexCode);
