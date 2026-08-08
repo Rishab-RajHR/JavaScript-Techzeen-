@@ -12,6 +12,10 @@ let genHexCode = () => {
         hexCode += hexString[Math.floor(Math.random() * hexString.length)];
     }
     output.value = hexCode;
+    outputColor.classList.remove("show-color");
+    setTimeout(() => {
+         outputColor.classList.add("show-color");
+    },10);
 }
 
 genBtn.addEventListener("click", genHexCode);
