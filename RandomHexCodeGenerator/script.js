@@ -16,6 +16,7 @@ let genHexCode = () => {
     setTimeout(() => {
          outputColor.classList.add("show-color");
     },10);
+    outputColor.style.backgroundColor = hexCode;
 }
 
 genBtn.addEventListener("click", genHexCode);
