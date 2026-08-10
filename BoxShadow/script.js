@@ -12,5 +12,11 @@ function generateShadow(){
      let shadowRadius = document.getElementById("shadow-color").value;
      let shadowColorOpacity = document.getElementById("shadow-color-opacity").value;
      let shadowInset = document.getElementById("shadow-inset").checked;
+     console.log(hexToRgba(shadowColor, shadowColorOpacity));
+}
 
+function hexToRgba(shadowColor, shadowColorOpacity) {
+    let r = parseInt(shadowColor.substr(1, 2), 16);
+    let g = parseInt(shadowColor.substr(3, 2), 16);
+    let b = parseInt(shadowColor.substr(5, 2), 16);
 }
