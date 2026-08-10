@@ -9,5 +9,8 @@ function generateShadow(){
      let vShadow = document.getElementById("v-shadow").value;
      let blurRadius = document.getElementById("blur-radius").value;
      let spreadRadius = document.getElementById("spread-radius").value;
+     let shadowRadius = document.getElementById("shadow-color").value;
+     let shadowColorOpacity = document.getElementById("shadow-color-opacity").value;
+     let shadowInset = document.getElementById("shadow-inset").checked;
 
 }
