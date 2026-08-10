@@ -39,3 +39,9 @@ body {
     grid-template-columns: 6fr 6fr;
     gap: 20px 15px;
 }
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
