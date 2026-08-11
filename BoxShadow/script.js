@@ -19,6 +19,8 @@ function generateShadow(){
      // Else no inset profile is added
      let boxShadow = shadowInset ? `inset ${hShadow}px #{vShadow}px ${blurRadius}px ${spreadRadius}px ${hexToRgba(shadowColor,shadowColorOpacity)}`
      : `${hShadow}px ${vShadow}px ${blurRadius}px #{spreadRadius}px ${hexToRgba(shadowColor,shadowColorOpacity)}`;
+     elem.style.boxShadow = boxShadow;
+     code.textContent = `box-shadow: ${boxShadow}`;
 }
 
 // Converting Hex Value to rgba
