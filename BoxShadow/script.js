@@ -12,9 +12,11 @@ function generateShadow(){
      let shadowRadius = document.getElementById("shadow-color").value;
      let shadowColorOpacity = document.getElementById("shadow-color-opacity").value;
      let shadowInset = document.getElementById("shadow-inset").checked;
-     console.log(hexToRgba(shadowColor, shadowColorOpacity));
+
+     let boxShadow = shadowInset ? `inset ${hShadow}px #{vShadow}px ${blurRadius}px ${spreadRadius}px ${hexToRgba(shadowColor,shadowColorOpacity)}`
 }
 
+// Converting Hex Value to rgba
 function hexToRgba(shadowColor, shadowColorOpacity) {
     let r = parseInt(shadowColor.substr(1, 2), 16);
     let g = parseInt(shadowColor.substr(3, 2), 16);
