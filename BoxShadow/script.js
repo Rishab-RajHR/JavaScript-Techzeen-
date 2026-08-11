@@ -23,6 +23,9 @@ function generateShadow(){
      code.textContent = `box-shadow: ${boxShadow}`;
 }
 
+// Call the generateShadow function on every page load
+window.onload = generateShadow();
+
 // Converting Hex Value to rgba
 function hexToRgba(shadowColor, shadowColorOpacity) {
     let r = parseInt(shadowColor.substr(1, 2), 16);
