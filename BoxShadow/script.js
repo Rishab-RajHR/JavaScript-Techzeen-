@@ -33,3 +33,10 @@ function hexToRgba(shadowColor, shadowColorOpacity) {
     let b = parseInt(shadowColor.substr(5, 2), 16);
     return `rgba(${r},${g},${b},${shadowColorOpacity})`;
 }
+
+// Copy the generated code to clipboard
+function copyCode() {
+    code.select();
+    document.execCommand("copy");
+    alert("Code Copied To ClipBoard");
+}
