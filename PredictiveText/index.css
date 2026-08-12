@@ -9,4 +9,14 @@ body {
     background-color: #2c8df6;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    position: relative;
+    background-color: #ffffff;
+    width: 25em;
+    height: 4.4em;
+    border-radius: 5px;
 }
