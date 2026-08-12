@@ -20,3 +20,16 @@ body {
     height: 4.4em;
     border-radius: 5px;
 }
+
+input {
+   outline: none;
+   border: none;
+   background-color: transparent;
+   position: absolute;
+   width: inherit;
+   height: inherit;
+   color: #000000;
+   font-size: 25px;
+   padding: 0 18px;
+   z-index: 3;
+}
