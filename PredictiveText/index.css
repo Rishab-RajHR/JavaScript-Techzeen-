@@ -33,3 +33,17 @@ input {
    padding: 0 18px;
    z-index: 3;
 }
+
+#suggestion {
+    background-color: orange;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    font-size: 25px;
+}
