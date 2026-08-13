@@ -22,4 +22,12 @@ let words = [
 ];
 
 words.sort();
-console.log(words);
+let input = document.getElementById("input");
+let suggestion = document.getElementById("suggestion");
+// Enter Key Code
+const enterKey = 13;
+
+window.onload = () => {
+   input.value = "";
+   clearSuggestion();
+}
