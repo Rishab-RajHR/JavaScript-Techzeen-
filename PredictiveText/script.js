@@ -35,3 +35,9 @@ window.onload = () => {
 const clearSuggestion = () => {
    suggestion.innerHTML = "";
 }
+
+// Execute function on input
+input.addEventListener("input", (e) => {
+    clearSuggestion();
+    // Convert input value to regex since string.startsWith() is case sensitive
+})
