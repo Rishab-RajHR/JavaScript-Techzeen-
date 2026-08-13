@@ -19,4 +19,7 @@ let words = [
 "Selene Ivy Harrington",
 "Gabriel Sterling Voss",
 "Ophelia Dawn Sinclair"
-]
+];
+
+words.sort();
+console.log(words);
