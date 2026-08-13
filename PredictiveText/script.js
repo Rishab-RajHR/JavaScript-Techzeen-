@@ -31,3 +31,7 @@ window.onload = () => {
    input.value = "";
    clearSuggestion();
 }
+
+const clearSuggestion = () => {
+   suggestion.innerHTML = "";
+}
