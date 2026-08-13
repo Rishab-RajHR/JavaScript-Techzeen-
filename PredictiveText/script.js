@@ -1,0 +1,22 @@
+let words = [
+  "Alexander Orion Vale",
+"Sophia Celeste Marlowe",
+"Ethan Gabriel Cross",
+"Isabella Rosehart Quinn",
+"Damian Lucius Grey",
+"Aurora Skye Bennett",
+"Julian Phoenix Carter",
+"Lila Evangeline Storm",
+"Sebastian Orion Drake",
+"Clara Seraphine Wilde",
+"Nathaniel Archer Frost",
+"Elena Marigold Hayes",
+"Xavier Thorne Blackwel",
+"Amara Soleil Winters",
+"Leo Caspian Rivers",
+"Vivienne Starling Moore",
+"Dorian Atlas Knight",
+"Selene Ivy Harrington",
+"Gabriel Sterling Voss",
+"Ophelia Dawn Sinclair"
+]
