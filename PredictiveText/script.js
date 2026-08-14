@@ -41,5 +41,9 @@ input.addEventListener("input", (e) => {
     clearSuggestion();
     // Convert input value to regex since string.startsWith() is case sensitive
     let regex = new RegExp("^" + input.value, "i");
-    console.log(regex);
+    // loop through words array
+    for(let i in words) {
+       // Check if input matches with any word in words array
+       if(regex.test(words[i]) && input.value != ""){}
+    }
 })
