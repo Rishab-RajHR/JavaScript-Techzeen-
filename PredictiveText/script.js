@@ -44,6 +44,10 @@ input.addEventListener("input", (e) => {
     // loop through words array
     for(let i in words) {
        // Check if input matches with any word in words array
-       if(regex.test(words[i]) && input.value != ""){}
+       if(regex.test(words[i]) && input.value != ""){
+          // Change case of word in words array according to user input
+          words[i] = caseCheck(words[i]);
+       }
+       break;
     }
 })
