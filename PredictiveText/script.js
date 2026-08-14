@@ -36,6 +36,16 @@ const clearSuggestion = () => {
    suggestion.innerHTML = "";
 }
 
+const caseCheck = (word) => {
+     // Array of characters
+     word = word.split("");
+     let inp = input.value;
+     // loop through every character in ino
+     for(let i in inp){
+        // if input character matches with character in word no need to change
+     }
+}
+
 // Execute function on input
 input.addEventListener("input", (e) => {
     clearSuggestion();
@@ -47,7 +57,7 @@ input.addEventListener("input", (e) => {
        if(regex.test(words[i]) && input.value != ""){
           // Change case of word in words array according to user input
           words[i] = caseCheck(words[i]);
+         break;
        }
-       break;
     }
 })
