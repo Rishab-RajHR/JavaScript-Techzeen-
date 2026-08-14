@@ -40,4 +40,5 @@ const clearSuggestion = () => {
 input.addEventListener("input", (e) => {
     clearSuggestion();
     // Convert input value to regex since string.startsWith() is case sensitive
+    let regex = new RegExp("^" + input.value, "i");
 })
