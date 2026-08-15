@@ -78,5 +78,7 @@ input.addEventListener("keydown", (e)=>{
     if(e.keyCode == enter_key && suggestion.innerText != ""){
        e.preventDefault();
        input.value = suggestion.innerText;
+       // clear the suggestion
+       clearSuggestion();
     }
 })
