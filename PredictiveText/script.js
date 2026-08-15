@@ -75,7 +75,7 @@ input.addEventListener("input", (e) => {
 // Complete predictive text on enter key
 input.addEventListener("keydown", (e)=>{
     // When user presses enter and suggestion exists
-    if(e.keyCode == enter_key && suggestion.innerText != ""){
+    if(e.keyCode == enterkey && suggestion.innerText != ""){
        e.preventDefault();
        input.value = suggestion.innerText;
        // clear the suggestion
