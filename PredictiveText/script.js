@@ -50,7 +50,9 @@ const caseCheck = (word) => {
            word.splice(i, 1, word[i].toLowerCase());
         }
      }
-}
+     // array to string
+     return word.join("");
+};
 
 // Execute function on input
 input.addEventListener("input", (e) => {
@@ -66,4 +68,4 @@ input.addEventListener("input", (e) => {
          break;
        }
     }
-})
+});
