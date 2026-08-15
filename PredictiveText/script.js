@@ -65,6 +65,8 @@ input.addEventListener("input", (e) => {
        if(regex.test(words[i]) && input.value != ""){
           // Change case of word in words array according to user input
           words[i] = caseCheck(words[i]);
+          // Display suggestion
+          suggestion.innerHTML = words[i]
          break;
        }
     }
