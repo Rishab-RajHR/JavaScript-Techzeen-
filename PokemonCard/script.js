@@ -22,10 +22,17 @@ const url = "https://pokeapi.co/api/v2/pokemon/";
 const card = document.getElementById("card");
 const btn = document.getElementById("btn");
 
-btn.addEventListener("click", getPokeData);
+
 
 let getPokeData = () => {
     // Generate a random number between 1 and 150
     let id = Math.floor(Math.random() * 100) + 1;
-    console.log(id);
+    // Combine the pokeapi url with pokemon id
+    const finalUrl = url + id;
+    // Fetch generated URL
+    fetch(finalUrl)
+        .then((response) => response.json())
+        .then((data) => generateCard(data));
 }
+
+btn.addEventListener("click", getPokeData);
