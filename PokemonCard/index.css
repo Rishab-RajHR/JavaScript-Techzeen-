@@ -72,3 +72,11 @@ body {
    justify-content: space-between;
    text-align: center;
 }
+
+.stats p {
+   color: #404060;
+}
+
+#btn {
+
+}
