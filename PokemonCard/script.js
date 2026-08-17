@@ -26,4 +26,6 @@ btn.addEventListener("click", getPokeData);
 
 let getPokeData = () => {
     // Generate a random number between 1 and 150
+    let id = Math.floor(Math.random() * 100) + 1;
+    console.log(id);
 }
