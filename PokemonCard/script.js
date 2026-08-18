@@ -42,6 +42,8 @@ let getPokeData = () => {
 let generateCard = (data) => {
      // Get neccessary data and assign it to variables
      console.log(data);
+     const hp = data.stats[0].base_stat;
+     console.log(hp);
 }
 
 btn.addEventListener("click", getPokeData);
