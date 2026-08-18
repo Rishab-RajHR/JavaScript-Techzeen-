@@ -65,6 +65,14 @@ let generateCard = (data) => {
               <h3>${statAttack}</h3>
               <p>Attack</p>
            </div>
+           <div>
+              <h3>${statDefense}</h3>
+              <p>Defense</p>
+           </div>
+           <div>
+               <h3>${statSpeed}</h3>
+               <p>Speed</p>
+           </div>
         </div>
      `;
 }
