@@ -43,7 +43,8 @@ let generateCard = (data) => {
      // Get neccessary data and assign it to variables
      console.log(data);
      const hp = data.stats[0].base_stat;
-     console.log(hp);
+     const imgSrc = data.sprites.other.dream_world.front_default;
+     const pokeName = data.name;
 }
 
 btn.addEventListener("click", getPokeData);
