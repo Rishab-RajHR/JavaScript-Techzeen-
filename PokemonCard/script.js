@@ -34,8 +34,7 @@ let getPokeData = () => {
         .then((response) => response.json())
         .then((data) => {
             generateCard(data);
-            console.log(data);
         });
-}
+};
 
 btn.addEventListener("click", getPokeData);
