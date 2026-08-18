@@ -32,7 +32,10 @@ let getPokeData = () => {
     // Fetch generated URL
     fetch(finalUrl)
         .then((response) => response.json())
-        .then((data) => generateCard(data));
+        .then((data) => {
+            generateCard(data);
+            console.log(data);
+        });
 }
 
 btn.addEventListener("click", getPokeData);
