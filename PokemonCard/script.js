@@ -37,5 +37,12 @@ let getPokeData = () => {
         });
 };
 
+// Generate Card
+
+let generateCard = (data) => {
+     // Get neccessary data and assign it to variables
+     console.log(data);
+}
+
 btn.addEventListener("click", getPokeData);
 window.addEventListener("load", getPokeData);
