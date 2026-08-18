@@ -75,7 +75,9 @@ let generateCard = (data) => {
      `;
      appendTypes(data.types);
 };
-let appendTypes = (types) => {};
+let appendTypes = (types) => {
+      console.log(types);
+};
 
 btn.addEventListener("click", getPokeData);
 window.addEventListener("load", getPokeData);
