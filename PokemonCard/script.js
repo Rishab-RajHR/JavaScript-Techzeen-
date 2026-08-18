@@ -57,8 +57,6 @@ let generateCard = (data) => {
          <img src=${imgSrc} />
          <h2 class="poke-name">${pokeName}</h2>
          <div class="types">
-            <span>type 1</span>
-            <span>type 1</span>
          </div>
          <div class="stats">
            <div>
@@ -75,7 +73,9 @@ let generateCard = (data) => {
            </div>
         </div>
      `;
-}
+     appendTypes(data.types);
+};
+let appendTypes = (types) => {};
 
 btn.addEventListener("click", getPokeData);
 window.addEventListener("load", getPokeData);
