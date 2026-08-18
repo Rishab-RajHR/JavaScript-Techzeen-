@@ -38,3 +38,4 @@ let getPokeData = () => {
 };
 
 btn.addEventListener("click", getPokeData);
+window.addEventListener("load", getPokeData);
