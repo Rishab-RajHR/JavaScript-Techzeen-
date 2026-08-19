@@ -108,6 +108,7 @@ let appendTypes = (types) => {
 
 let styleCard = (color) => {
    card.style.background = `radial-gradient(circle at 50% 0%, ${color} 36%, #ffffff 36%)`;
+   card.querySelectorAll(".types span").forEach(typeColor => typeColor.style.backgroundColor = color)
 }
 
 btn.addEventListener("click", getPokeData);
