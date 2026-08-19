@@ -79,8 +79,8 @@ let appendTypes = (types) => {
       console.log(types);
       types.forEach((item) => {
          let span = document.createElement("SPAN");
-         span.textContent = item.type.
-      })
+         span.textContent = item.type.name;
+      });
 };
 
 btn.addEventListener("click", getPokeData);
