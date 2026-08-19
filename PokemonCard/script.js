@@ -77,6 +77,10 @@ let generateCard = (data) => {
 };
 let appendTypes = (types) => {
       console.log(types);
+      types.forEach((item) => {
+         let span = document.createElement("SPAN");
+         span.textContent = item.type.
+      })
 };
 
 btn.addEventListener("click", getPokeData);
