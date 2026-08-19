@@ -80,6 +80,7 @@ let appendTypes = (types) => {
       types.forEach((item) => {
          let span = document.createElement("SPAN");
          span.textContent = item.type.name;
+         console.log(span);
       });
 };
 
