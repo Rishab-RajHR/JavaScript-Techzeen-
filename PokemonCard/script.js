@@ -96,6 +96,7 @@ let generateCard = (data) => {
         </div>
      `;
      appendTypes(data.types);
+     styleCard(themeColor);
 };
 let appendTypes = (types) => {
       types.forEach((item) => {
@@ -104,6 +105,10 @@ let appendTypes = (types) => {
          document.querySelector(".types").appendChild(span);
       });
 };
+
+let styleCard = (color) => {
+   
+}
 
 btn.addEventListener("click", getPokeData);
 window.addEventListener("load", getPokeData);
