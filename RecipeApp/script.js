@@ -34,5 +34,10 @@ fetch(url + "big mac")
          <h2>${myMeal.strMeal}</h2>
          <h2>${myMeal.strArea}</h2>
        </div>
+       <div class="ingredient-con"></div>
+       <div id="recipe">
+           <button id="hide-recipe">X</button>
+           <pre id="instructions">${myMeal.strInstructions}</pre>
+        </div>
        `;
    });
