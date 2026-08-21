@@ -19,6 +19,12 @@ fetch(url + "big mac")
        for(let i in myMeal) {
           let ingredient = "";
           let measure = "";
-          if(i.startsWith(""));
+          if(i.startsWith("") && myMeal(i))
+          {
+            ingredient = myMeal[i];
+            measure = myMeal[`strMeasure` + count];
+            count += 1;
+            console.log(ingredient, measure);
+          }
        }
    });
