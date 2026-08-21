@@ -28,4 +28,6 @@ fetch(url + "big mac")
           }
        }
        console.log(ingredients);
+
+       result.innerHTML = `<img src=${myMeal.strMealThumb}>`;
    });
