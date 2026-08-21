@@ -24,7 +24,7 @@ fetch(url + "big mac")
             ingredient = myMeal[i];
             measure = myMeal[`strMeasure` + count];
             count += 1;
-            console.log(ingredient, measure);
+            ingredients.push(`${measure} ${ingredient}`);
           }
        }
    });
