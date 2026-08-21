@@ -27,4 +27,5 @@ fetch(url + "big mac")
             ingredients.push(`${measure} ${ingredient}`);
           }
        }
+       console.log(ingredients);
    });
