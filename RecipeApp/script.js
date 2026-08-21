@@ -13,4 +13,5 @@ fetch(url + "big mac")
        console.log(myMeal.strMealThumb);
        console.log(myMeal.strMeal);
        console.log(myMeal.strArea);
+       console.log(myMeal.strInstructions);
    });
