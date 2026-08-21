@@ -8,5 +8,6 @@ let userInp = document.getElementById("user-inp").value;
 fetch(url + "big mac")
    .then((response) => response.json())
    .then((data) => {
-       console.log(data);
+       let myMeal = data.meals[0];
+       console.log(myMeal);
    });
