@@ -52,6 +52,17 @@ img {
      margin: 1.8em auto 0 auto;
 }
 
+#recipe{
+      position: absolute;
+      background-color: #ffffff;
+      min-height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      border-radius: 0.6em;
+}
+
 #recipe pre {
       white-space: pre-wrap;
       word-wrap: break-word;
