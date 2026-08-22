@@ -32,7 +32,7 @@ fetch(url + "big mac")
        result.innerHTML = `<img src=${myMeal.strMealThumb}>
        <div class="details">
          <h2>${myMeal.strMeal}</h2>
-         <h2>${myMeal.strArea}</h2>
+         <h4>${myMeal.strArea}</h4>
        </div>
        <div class="ingredient-con"></div>
        <div id="recipe">
@@ -40,4 +40,9 @@ fetch(url + "big mac")
            <pre id="instructions">${myMeal.strInstructions}</pre>
         </div>
        `;
+       let ingredientCon = document.getElementById("ingredient-con");
+       let parent = document.getElementById("ul");
+       let recipe = document.getElementById("recipe");
+       let hideRecipe = document.getElementById("hide-recipe");
+       let showRecipe = document.getElementById("show-recipe");
    });
