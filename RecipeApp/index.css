@@ -51,3 +51,9 @@ img {
      width: 50%;
      margin: 1.8em auto 0 auto;
 }
+
+#recipe pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      padding: 2.5em 1.2em 1.2em 1.2em;
+}
