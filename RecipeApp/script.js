@@ -8,9 +8,8 @@ searchBtn.addEventListener("click",() => {
      if (userInp.length == 0) {
         result.innerHTML = `<h3>Input Field Cannot be Empty</h3>`;
      }
-})
-
-fetch(url + "big mac")
+     else {
+         fetch(url + "big mac")
    .then((response) => response.json())
    .then((data) => {
        let myMeal = data.meals[0];
@@ -65,4 +64,8 @@ fetch(url + "big mac")
         showRecipe.addEventListener("click", () => {
             recipe.style.display = "block";
         });
-   });
+     });
+
+     }
+})
+
