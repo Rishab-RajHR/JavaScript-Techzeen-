@@ -46,4 +46,9 @@ fetch(url + "big mac")
        let recipe = document.getElementById("recipe");
        let hideRecipe = document.getElementById("hide-recipe");
        let showRecipe = document.getElementById("show-recipe");
+
+       ingredients.forEach((i) => {
+          let child = document.createElement("li");
+          child.innerText = i;
+       })
    });
