@@ -5,6 +5,9 @@ let url = "https://www.themealdb.com/api/json/v1/1/search.php?=";
 
 searchBtn.addEventListener("click",() => {
      let userInp = document.getElementById("user-inp").value;
+     if (userInp.length == 0) {
+        result.innerHTML = `<h3>Input Field Cannot be Empty</h3>`;
+     }
 })
 
 fetch(url + "big mac")
