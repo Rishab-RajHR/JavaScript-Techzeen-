@@ -50,5 +50,7 @@ fetch(url + "big mac")
        ingredients.forEach((i) => {
           let child = document.createElement("li");
           child.innerText = i;
+          parent.appendChild(child);
+          ingredientCon.appendChild(parent);
        })
    });
