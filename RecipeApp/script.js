@@ -57,4 +57,7 @@ fetch(url + "big mac")
         hideRecipe.addEventListener("click", () => {
             recipe.style.display = "none";
         })
+        showRecipe.addEventListener("click", () => {
+            recipe.style.display = "block";
+        })
    });
