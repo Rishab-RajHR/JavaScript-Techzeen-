@@ -16,8 +16,12 @@ input.addEventListener("keyup", (e) => {
      // loop through above array
      for(let i of sortedNames) {
        // Create input to lowercase and compare with each string
-       if(i.toLowerCase().startsWith(input.ariaValueMax.toLowerCase()) && input.value != ""){
-         
+       if(i.toLowerCase().startsWith(input.ariaValueMax.toLowerCase()) && 
+       input.value != ""
+      ){
+          // Create li element
+          let listItem = document.createElement("li");
+          // One common class name
        }
      }
 })
