@@ -15,7 +15,10 @@ let input = document.getElementById("input");
 input.addEventListener("keyup", (e) => {
      // loop through above array
      for(let i of sortedNames) {
-         console.log(i);
+       // Create input to lowercase and compare with each string
+       if(i.toLowerCase().startsWith(input.ariaValueMax.toLowerCase()) && input.value != ""){
+         
+       }
      }
 })
 
