@@ -26,7 +26,9 @@ input.addEventListener("keyup", (e) => {
           listItem.style.cursor = "pointer";
           listItem.setAttribute("onclick", "displayNames('" + i + "')");
           // Display matched part in bold
-          let word = "<b>" + i.substr(0,input.value.length) + "</b>"
+          let word = "<b>" + i.substr(0,input.value.length) + "</b>";
+          word += i.substr(input.value.length);
+          console.log(word);
        }
      }
 });
