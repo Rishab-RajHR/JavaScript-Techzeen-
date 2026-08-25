@@ -22,6 +22,9 @@ input.addEventListener("keyup", (e) => {
           // Create li element
           let listItem = document.createElement("li");
           // One common class name
+          listItem.classList.add("list-items");
+          listItem.style.cursor = "pointer";
+          listItem.setAttribute("onclick", "displayNames('" + i + "')");
        }
      }
 })
