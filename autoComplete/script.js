@@ -27,7 +27,11 @@ input.addEventListener("keyup", (e) => {
           listItem.setAttribute("onclick", "displayNames('" + i + "')");
        }
      }
-})
+});
+
+function displayNames(value) {
+    input.value = value;
+}
 
 
 
