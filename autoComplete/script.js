@@ -14,6 +14,9 @@ let input = document.getElementById("input");
 // Execute function on keyup
 input.addEventListener("keyup", (e) => {
      // loop through above array
+     for(let i of sortedNames) {
+         console.log(i);
+     }
 })
 
 
