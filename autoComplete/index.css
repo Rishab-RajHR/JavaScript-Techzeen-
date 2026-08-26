@@ -42,5 +42,9 @@ ul {
 }
 
 .list-items {
-   padding: 15px 5px;
+   padding: 10px 5px;
+}
+
+.list-items:hover {
+    background-color: #dddddd;
 }
