@@ -29,6 +29,8 @@ input.addEventListener("keyup", (e) => {
           let word = "<b>" + i.substr(0,input.value.length) + "</b>";
           word += i.substr(input.value.length);
          // Display the value in array
+         listItem.innerHTML = word;
+         document.querySelector(".list").appendChild(listItem);
        }
      }
 });
