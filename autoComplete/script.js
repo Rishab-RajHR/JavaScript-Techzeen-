@@ -14,9 +14,10 @@ let input = document.getElementById("input");
 // Execute function on keyup
 input.addEventListener("keyup", (e) => {
      // loop through above array
+     // Initially remove all elements (so if user erases a letter or adds new letter them clean previous outputs)
      for(let i of sortedNames) {
        // Create input to lowercase and compare with each string
-       // Initially remove all elements (so if user erases a letter or adds new letter them clean previous outputs)
+       
        removeElements();
        if(i.toLowerCase().startsWith(input.ariaValueMax.toLowerCase()) && 
        input.value != ""
