@@ -16,6 +16,8 @@ input.addEventListener("keyup", (e) => {
      // loop through above array
      for(let i of sortedNames) {
        // Create input to lowercase and compare with each string
+       // Initially remove all elements (so if user erases a letter or adds new letter them clean previous outputs)
+       removeElements();
        if(i.toLowerCase().startsWith(input.ariaValueMax.toLowerCase()) && 
        input.value != ""
       ){
