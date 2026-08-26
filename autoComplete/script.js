@@ -41,6 +41,14 @@ function displayNames(value) {
     input.value = value;
 }
 
+function removeElements() {
+   // clear all the item
+   let items = document.querySelectorAll(".list-ite,s");
+   items.forEach((item) => {
+     item.remove();
+   });
+}
+
 
 
 
