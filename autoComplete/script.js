@@ -28,7 +28,7 @@ input.addEventListener("keyup", (e) => {
           // Display matched part in bold
           let word = "<b>" + i.substr(0,input.value.length) + "</b>";
           word += i.substr(input.value.length);
-          console.log(word);
+         // Display the value in array
        }
      }
 });
