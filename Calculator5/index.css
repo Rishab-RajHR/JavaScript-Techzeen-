@@ -35,3 +35,7 @@ display {
     color: #ffffff;
     font-size: 35px;
 }
+
+.display input:placeholder {
+   color: #9490ac;
+}
