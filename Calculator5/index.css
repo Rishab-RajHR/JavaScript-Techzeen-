@@ -4,3 +4,8 @@
    box-sizing: border-box;
    font-family: "Roboto Mono", monospace;
 }
+
+body {
+   height: 100vh;
+   background: linear-gradient(to bottom, #f9544c 50%, #090c31 50%);
+}
