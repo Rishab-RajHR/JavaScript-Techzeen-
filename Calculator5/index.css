@@ -9,3 +9,11 @@ body {
    height: 100vh;
    background: linear-gradient(to bottom, #f9544c 50%, #090c31 50%);
 }
+
+.calculator {
+    width: 400px;
+    background-color: #15173c;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
