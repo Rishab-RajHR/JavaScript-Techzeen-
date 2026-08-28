@@ -46,3 +46,13 @@ display {
    grid-gap: 20px;
    margin-top: 40px;
 }
+
+.buttons input[type="button"] {
+    font-size: 20px;
+    padding: 17px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
