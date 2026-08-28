@@ -60,3 +60,8 @@ display {
 .buttons input[type="button"]:hover {
    box-shadow: 0 8px 25px #000d2e;
 }
+
+input[type="button"]equal {
+    grid-row: span 2;
+    background-color: #f9544c;
+}
