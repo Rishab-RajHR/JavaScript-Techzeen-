@@ -56,3 +56,7 @@ display {
     cursor: pointer;
     border-radius: 5px;
 }
+
+.buttons input[type="button"]:hover {
+   box-shadow: 0 8px 25px #000d2e;
+}
