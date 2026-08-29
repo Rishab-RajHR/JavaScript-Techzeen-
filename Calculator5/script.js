@@ -29,7 +29,10 @@ equal.addEventListener("click", () => {
      equal_pressed = 1;
      let inp_val = input.value;
      try {
-        
+        // evaluate user's input
+        let solution = eval(inp_val);
+        // True for natural numbers
+        // false for decimals
      } catch (error) {
         
      }
