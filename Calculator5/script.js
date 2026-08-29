@@ -27,4 +27,10 @@ button_input.forEach((button_class) => {
 // Solve the user's input when clicked on equal sign
 equal.addEventListener("click", () => {
      equal_pressed = 1;
+     let inp_val = input.value;
+     try {
+        
+     } catch (error) {
+        
+     }
 })
