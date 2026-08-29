@@ -33,6 +33,11 @@ equal.addEventListener("click", () => {
         let solution = eval(inp_val);
         // True for natural numbers
         // false for decimals
+        if(Number.isInteger(solution)){
+             input.value = solution;
+        }else{
+            input.value = solution.toFixed(2);
+        }
      } catch (error) {
         
      }
