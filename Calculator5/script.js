@@ -38,7 +38,8 @@ equal.addEventListener("click", () => {
         }else{
             input.value = solution.toFixed(2);
         }
-     } catch (error) {
-        
+     } catch (err) {
+        // If user has entered invalid input
+        alert("Invalid Input");
      }
 })
