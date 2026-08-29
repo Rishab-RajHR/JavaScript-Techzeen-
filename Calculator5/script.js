@@ -42,4 +42,9 @@ equal.addEventListener("click", () => {
         // If user has entered invalid input
         alert("Invalid Input");
      }
-})
+});
+
+// Clear Whole Input
+clear.addEventListener("click", () => {
+      input.value = "";
+});
