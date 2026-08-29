@@ -18,6 +18,8 @@ button_input.forEach((button_class) => {
            input.value = "";
            equal_pressed = 0;
         }
+        // display value of each button
+        input.value += button_class.value;
     })
 })
 
