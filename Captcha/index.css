@@ -24,8 +24,10 @@ body {
    display: flex;
    align-items: center;
    justify-content: space-between;
+   margin: 1em 0;
 }
 
 canvas {
    border: 1px solid #000000;
+   border-radius: 0.4em;
 }
