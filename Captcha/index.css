@@ -31,3 +31,13 @@ canvas {
    border: 1px solid #000000;
    border-radius: 0.4em;
 }
+
+button#reload-button {
+    font-size: 26px;
+    width: 4.6em;
+    background-color: #8052ec;
+    border: none;
+    border-radius: 0.4em;
+    color: #ffffff;
+    height: 70px;
+}
