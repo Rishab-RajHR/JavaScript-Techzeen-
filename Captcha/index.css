@@ -7,3 +7,12 @@ body {
    height; 100vh;
    background: linear-gradient(135deg, #8052ec, #d161ff);
 }
+
+.container {
+   width: 32em;
+   background-color: #ffffff;
+   padding: 5em;
+   border-radius: 0.6em;
+   position: absolute;
+   transform: translate(-50);
+}
