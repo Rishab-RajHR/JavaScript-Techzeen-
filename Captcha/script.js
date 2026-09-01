@@ -25,6 +25,16 @@ const textGenerator = () => {
 const randomNumber = (min, max) => 
       Math.floor(Math.random() * (max - min + 1) + min);
 
+// Canvas part
+function drawStringOnCanvas(string) {
+    // The getContext() method returns the drawing context that has all the drawing properties and functions needed to draw on the canvas
+    let ctx = canvas.getContext("2d");
+    // clear canvas
+    ctx.clearRext(0, 0, ctx.canvas.width, ctx.canvas.height);
+    // Array of text color
+    const textColor = ["rgb(0,0,0)", "rgb(130,130,130)"];
+}
+
 
 // Initial Function
 const triggerFunction = () => {
