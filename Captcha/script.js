@@ -27,7 +27,12 @@ const randomNumber = (min, max) =>
 
 
 // Initial Function
-const triggerFunction = () => {};
+const triggerFunction = () => {
+    // Clear Input
+    userInput.value = "";
+    text = textGenerator();
+    console.log(text);
+};
 
 
 // Call triggerFunction for page reload button
