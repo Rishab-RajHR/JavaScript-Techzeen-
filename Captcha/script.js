@@ -32,3 +32,7 @@ const triggerFunction = () => {};
 
 // Call triggerFunction for page reload button
 reloadButton.addEventListener("click", triggerFunction);
+
+
+// Call triggerFunction when page loads
+window.onload = () => triggerFunction();
