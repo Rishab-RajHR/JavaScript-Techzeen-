@@ -33,6 +33,7 @@ const triggerFunction = () => {
     text = textGenerator();
     // Randomize the text so that everytime the position of numbers and small letters is random
     text = [...text].sort(() => Math.random() -0.5).join("");
+    drawStringOnCanvas(text);
 };
 
 
