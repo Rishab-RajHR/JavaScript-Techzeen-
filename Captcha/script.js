@@ -26,4 +26,9 @@ const randomNumber = (min, max) =>
       Math.floor(Math.random() * (max - min + 1) + min);
 
 
-console.log(textGenerator());
+// Initial Function
+const triggerFunction = () => {};
+
+
+// Call triggerFunction for page reload button
+reloadButton.addEventListener("click", triggerFunction);
