@@ -68,7 +68,14 @@ const triggerFunction = () => {
 reloadButton.addEventListener("click", triggerFunction);
 
 // When user clicks on submit button
-
+submitButton.addEventListener("click", () => {
+     // Check if user input == generated text
+     if (userInput.value === text) {
+         alert("Success");
+     }else {
+         alert("Incorrect");
+     }
+})
 
 // Call triggerFunction when page loads
 window.onload = () => triggerFunction();
