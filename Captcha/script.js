@@ -30,7 +30,7 @@ function drawStringOnCanvas(string) {
     // The getContext() method returns the drawing context that has all the drawing properties and functions needed to draw on the canvas
     let ctx = canvas.getContext("2d");
     // clear canvas
-    ctx.clearRext(0, 0, ctx.canvas.width, ctx.canvas.height);
+    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     // Array of text color
     const textColor = ["rgb(0,0,0)", "rgb(130,130,130)"];
     // Space Between letters
@@ -66,6 +66,8 @@ const triggerFunction = () => {
 
 // Call triggerFunction for page reload button
 reloadButton.addEventListener("click", triggerFunction);
+
+// When user clicks on submit button
 
 
 // Call triggerFunction when page loads
