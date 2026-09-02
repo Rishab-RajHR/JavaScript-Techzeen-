@@ -40,6 +40,9 @@ function drawStringOnCanvas(string) {
           // Define initial space on X axis
           const xInitialSpace = 25;
           // Set font for canvas element
+          ctx.font = "20px Roboto Mono";
+          // set text color
+          ctx.fillStyle = textColors[randomNumber(0, 1)];
     }
 }
 
