@@ -43,6 +43,12 @@ function drawStringOnCanvas(string) {
           ctx.font = "20px Roboto Mono";
           // set text color
           ctx.fillStyle = textColors[randomNumber(0, 1)];
+          ctx.fillText(
+            string[i],
+            xInitialSpace + i * letterSpace,
+            randomNumber(25, 40),
+            100
+          );
     }
 }
 
