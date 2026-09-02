@@ -38,6 +38,8 @@ function drawStringOnCanvas(string) {
     // Loop through string
     for(let i=0; i<string.length; i++) {
           // Define initial space on X axis
+          const xInitialSpace = 25;
+          // Set font for canvas element
     }
 }
 
