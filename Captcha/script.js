@@ -35,6 +35,10 @@ function drawStringOnCanvas(string) {
     const textColor = ["rgb(0,0,0)", "rgb(130,130,130)"];
     // Space Between letters
     const letterSpace = 150 / string.length;
+    // Loop through string
+    for(let i=0; i<string.length; i++) {
+          // Define initial space on X axis
+    }
 }
 
 
