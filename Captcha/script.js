@@ -74,6 +74,7 @@ submitButton.addEventListener("click", () => {
          alert("Success");
      }else {
          alert("Incorrect");
+         triggerFunction();
      }
 })
 
