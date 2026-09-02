@@ -33,6 +33,8 @@ function drawStringOnCanvas(string) {
     ctx.clearRext(0, 0, ctx.canvas.width, ctx.canvas.height);
     // Array of text color
     const textColor = ["rgb(0,0,0)", "rgb(130,130,130)"];
+    // Space Between letters
+    const letterSpace = 150 / string.length;
 }
 
 
