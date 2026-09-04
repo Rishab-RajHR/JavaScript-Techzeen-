@@ -10,19 +10,19 @@ body {
 }
 
 .wrapper {
-  border: 1px solid white;
   position: absolute;
   width: 80vw;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   display: flex;
+  justify-content: space-around;
+  gap: 10px;
 }
 
 .container {
   width: 28vmin;
   height: 28vmin;
-  border: 1px solid orange;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
