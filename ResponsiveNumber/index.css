@@ -42,6 +42,10 @@ i {
 
 span.num {
    color: #ffffff;
+   display: grid;
+   place-items: center;
+   font-weight: 600;
+   font-size: 3em;
 }
 
 span.text {
