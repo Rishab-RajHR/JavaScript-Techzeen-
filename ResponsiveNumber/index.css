@@ -61,4 +61,9 @@ span.text {
     .wrapper {
         width: 85vw;
     }
+    .container {
+       height: 26vmin;
+       width: 26vmin;
+       font-size: 12px;
+    }
 }
