@@ -11,5 +11,5 @@ valueDisplays.forEach((valueDisplays) => {
         if(startValue === endValue) {
            clearInterval(counter);
         }
-    })
+    }, duration);
 });
