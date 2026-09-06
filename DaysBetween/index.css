@@ -42,3 +42,10 @@ input[type="date"] {
     border-radius: 0.2em;
     margin-top: 0.6em;
 }
+
+::webkit-calendar-picker-indicator {
+     background-color: #18f08b;
+     padding: 0.2em;
+     cursor: pointer;
+     border-radius: 0.1em;
+}
