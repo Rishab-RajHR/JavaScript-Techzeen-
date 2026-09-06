@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
 }
+
+body {
+   height: 100vh;
+   background: linear-gradient(#18f08b 50%, #161912 50%);
+}
