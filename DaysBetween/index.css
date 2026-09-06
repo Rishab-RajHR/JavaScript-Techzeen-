@@ -26,3 +26,9 @@ body {
     justify-content: space-between;
     gap: 1.2em;
 }
+
+label {
+   color: #d5d5d5;
+   display: block;
+   font-weight: 600;
+}
