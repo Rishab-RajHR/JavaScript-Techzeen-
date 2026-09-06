@@ -9,3 +9,14 @@ body {
    height: 100vh;
    background: linear-gradient(#18f08b 50%, #161912 50%);
 }
+
+.container {
+  width: 90vw;
+  max-width: 37.5em;
+  background-color: #242831;
+  padding: 6em 3em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
