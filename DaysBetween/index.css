@@ -78,4 +78,9 @@ button {
     .inp-wrapper {
        flex-direction: column;
     }
+    .date-wrapper {
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+    }
 }
