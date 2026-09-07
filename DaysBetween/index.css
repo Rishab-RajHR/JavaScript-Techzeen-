@@ -70,3 +70,12 @@ button {
     font-size: 1.2em;
     letter-spacing: 0.05em;
 }
+
+@media screen and (max-width: 550px) {
+    .container {
+        padding: 4em 2em;
+    }
+    .inp-wrapper {
+       flex-direction: column;
+    }
+}
