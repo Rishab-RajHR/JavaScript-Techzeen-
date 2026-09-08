@@ -71,6 +71,12 @@ button {
     letter-spacing: 0.05em;
 }
 
+#output span {
+    color: #18f08b;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 550px) {
     .container {
         padding: 4em 2em;
