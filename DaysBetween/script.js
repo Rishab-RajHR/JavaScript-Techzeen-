@@ -17,5 +17,6 @@ submit.addEventListener("click", () => {
 
        // Sunce this value is in milliseconds we need to convert it into days
        let dayDifference = timeDifference / (1000 * 3600 * 24);
+       console.log(dayDifference);
     }
 })
