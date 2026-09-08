@@ -12,5 +12,6 @@ submit.addEventListener("click", () => {
     // If valid calculate the difference
     if(date1.getTime() && date2.getTime()){
         // Calculate difference in time using getTime function
+        // getTime calculates number of years since January 1, 1970
     }
 })
