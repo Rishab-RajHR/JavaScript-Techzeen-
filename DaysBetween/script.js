@@ -14,5 +14,7 @@ submit.addEventListener("click", () => {
         // Calculate difference in time using getTime function
         // getTime calculates number of years since January 1, 1970
         let timeDifference = date2.getTime() - date1.getTime();
+
+        console.log(timeDifference);
     }
 })
