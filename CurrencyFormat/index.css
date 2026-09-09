@@ -42,3 +42,14 @@ input {
    font-size: 16px;
    border-bottom: 1px solid #37373a;
 }
+
+button {
+    background-color: #6637ed;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    height: 40px;
+    padding: 0 20px;
+    cursor: 3px;
+    border-radius: 3px;
+}
