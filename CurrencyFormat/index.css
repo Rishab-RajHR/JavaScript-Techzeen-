@@ -14,3 +14,11 @@ body{
    background-size: 100% 32%;
    background-repeat: no-repeat;
 }
+
+.wrapper {
+    width: 80vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
