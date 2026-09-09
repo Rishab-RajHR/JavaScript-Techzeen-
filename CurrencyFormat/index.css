@@ -2,6 +2,7 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   font-family: "Roboto Mono",monospace;
 }
 
 body{
@@ -52,4 +53,14 @@ button {
     padding: 0 20px;
     cursor: 3px;
     border-radius: 3px;
+}
+
+p {
+   background-color: #ffffff;
+   box-shadow: 12px 12px 30px rgba(1,9,31,0.05);
+   padding: 20px 10px;
+   text-align: center;
+   margin-top: 30px;
+   color: #37373a;
+   border-radius: 5px;
 }
