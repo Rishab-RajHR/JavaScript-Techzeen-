@@ -1,6 +1,8 @@
 let btn = document.getElementById("btn");
 
 let rupees = document.getElementById("output1");
+let dollars = document.getElementById("output2");
+let yen = document.getElementById("output3");
 
 let formatter1 = new Intl.NumberFormat(
     "en-IN",
