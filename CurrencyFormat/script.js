@@ -13,14 +13,15 @@ let formatter2 = new Intl.NumberFormat(
     {style: "currency", currency: "USD"}
 );
 let formatter3 = new Intl.NumberFormat(
-    "en-IN",
-    {style: "currency", currency: "I"}
+    "ja-JP",
+    {style: "currency", currency: "JPY"}
 );
 
 btn.addEventListener("click", ()=>{
     let amount = document.getElementById("amount").nodeValue;
 
     rupees.innerHTML = `<span>Indian Rupees:</span>${formatter1.format(amount)}`;
-    rupees.innerHTML = `<span>US Dollars:</span>${formatter1.format(amount)}`;
+    dollars.innerHTML = `<span>US Dollars:</span>${formatter2.format(amount)}`;
+    yen.innerHTML = `<span>Japanese Yen:</span>${formatter3.format(amount)}`;
 
 });
