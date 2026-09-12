@@ -72,3 +72,15 @@ span.text{
         font-size: 12px;
     }
 }
+@media screen and (max-width: 768px) {
+    .countdown{
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 30px
+    }
+    .box{
+        height: 30vmin;
+        width: calc( 50% - 40px );
+        font-size: 14px;
+    }
+}
