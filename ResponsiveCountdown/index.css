@@ -61,3 +61,14 @@ span.text{
      padding: 0.5em 0;
      font-weight: 400;
 }
+
+@media screen and (max-width: 1024px) {
+    .countdown{
+        width: 85vw;
+    }
+    .box{
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+    }
+}
