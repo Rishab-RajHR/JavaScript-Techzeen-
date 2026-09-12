@@ -12,7 +12,6 @@ body{
 
 .countdown{
     width: 80vw;
-    border: 1px solid white;
     display: flex;
     justify-content: space-around;
     gap: 10px;
@@ -41,4 +40,14 @@ body{
    height: 100%;
    width: 50%;
    left: 0;
+}
+
+span.num{
+    background-color: #202020;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 5em;
 }
