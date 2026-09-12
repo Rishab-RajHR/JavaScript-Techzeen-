@@ -51,3 +51,13 @@ span.num{
     font-weight: 600;
     font-size: 5em;
 }
+
+span.text{
+     font-size: 1.2em;
+     background-color: #2887e3;
+     display: block;
+     width: 100%;
+     text-align: center;
+     padding: 0.5em 0;
+     font-weight: 400;
+}
