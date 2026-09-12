@@ -84,3 +84,16 @@ span.text{
         font-size: 14px;
     }
 }
+@media screen and (max-width: 480px) {
+    .countdown{
+        gap: 15px;
+    }
+    .box{
+        height: 25vmin;
+        width: 100%;
+        font-size: 8px;
+    }
+    .span.text{
+         font-size: 1.5em;
+    }
+}
